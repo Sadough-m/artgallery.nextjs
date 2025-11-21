@@ -1,0 +1,2384 @@
+.Artwork {
+  margin-bottom: 200px !important;
+}
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px 143px;
+  background-color: white;
+  z-index: 1000;
+}
+.HeaderSetting {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 11px 143px;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #eef0f3;
+}
+.Logo {
+  background-color: #a8b3bc !important;
+  padding: 10px 32px 10px 32px !important;
+  color: white !important;
+  position: absolute !important;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 6px !important;
+}
+
+.Name {
+  position: absolute !important;
+  left: 50%;
+  font-size: 18px;
+  font-weight: 500;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px !important;
+}
+
+.ArtworkInfo {
+  padding: 0 0px;
+}
+.LeftSide {
+  margin-right: 30px !important;
+  width: 352px;
+}
+.RightSide {
+  width: 352px;
+}
+.RightSide_V2 {
+  width: 550px;
+}
+.ImgArtwork {
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.P_ArtworkInfo {
+  margin-top: 205px !important;
+}
+.TinyImg {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 8px !important;
+}
+.TinyImg1 {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.AvText {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 0;
+  border-bottom: 1px solid #eef0f3;
+}
+.AvImage {
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+.BadgeGreen {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: #a6e9de;
+  margin-right: 8px !important;
+}
+.MnText {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+.InfoSvg {
+  position: relative;
+  top: 3px;
+}
+.P_RightImg {
+  margin-top: 60px !important;
+}
+.VerficationText {
+  font-size: 16px;
+  font-weight: 500;
+  color: #242328;
+  margin-top: 40px !important;
+  text-align: center;
+}
+.DummyText {
+  text-align: center;
+  margin-top: 16px !important;
+  font-size: 14px;
+}
+.StartVerifing {
+  width: 100% !important;
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+}
+.CancelVerifing {
+  width: 100% !important;
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+  background-color: #f7f8fa !important;
+}
+.P_StartVer {
+  width: 100% !important;
+  margin-top: 69px !important;
+}
+.P_CancelVer {
+  width: 100% !important;
+  margin-top: 16px !important;
+}
+.ButtonSelected {
+  background-color: #242328 !important;
+  border-radius: 4px !important;
+  color: white !important;
+  padding: 4px 12px !important;
+  font-weight: 400 !important;
+  margin-right: 8px !important;
+  border: 2px solid #242328 !important;
+  font-weight: 400 !important;
+}
+.ButtonSelectedLimit {
+  background-color: #242328 !important;
+  border-radius: 4px !important;
+  color: white !important;
+  padding: 2px 12px !important;
+  font-weight: 400 !important;
+  margin-right: 8px !important;
+  border: 2px solid #242328 !important;
+  min-width: 40px !important;
+  font-weight: 400 !important;
+}
+.Button {
+  background-color: #ffffff !important;
+  border: 1.5px solid #eef0f3 !important;
+  border-radius: 4px !important;
+  padding: 4px 12px !important;
+  margin-right: 8px !important;
+  font-weight: 400 !important;
+}
+.ButtonLimit {
+  background-color: #ffffff !important;
+  border: 1.5px solid #eef0f3 !important;
+  border-radius: 4px !important;
+  padding: 2px 12px !important;
+  margin-right: 8px !important;
+  min-width: 40px !important;
+  font-weight: 400 !important;
+}
+.Title {
+  font-size: 14px;
+  color: #83909d;
+}
+.Value {
+  font-size: 14px;
+  font-weight: 500;
+}
+.AboutArtwork {
+  padding: 16px 0;
+  border-bottom: 1px solid #eef0f3;
+}
+.P_AboutArtwork {
+  margin-top: 16px !important;
+  position: relative;
+}
+.LineFake {
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  z-index: 1;
+}
+.Buy {
+  width: 100% !important;
+  border-radius: 8px !important;
+  padding: 10px 24px !important;
+}
+.Inq {
+  background-color: #f7f8fa !important;
+  width: 100% !important;
+  border-radius: 8px !important;
+  padding: 10px 24px !important;
+}
+.Qrcode {
+  position: relative;
+  top: 5px;
+  margin-left: 24px !important;
+}
+.P_Buy {
+  margin-top: 70px !important;
+}
+.ItemReport {
+  background: #242328 !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+  color: white !important;
+  margin-top: 8px !important;
+  font-weight: 400 !important;
+}
+.ItemReport_2 {
+  background: #eef0f3 !important;
+  border-radius: 8px !important;
+  padding: 10px 16px !important;
+  margin-top: 8px !important;
+  font-weight: 400 !important;
+  font-weight: 500 !important;
+}
+.Report {
+  padding: 24px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+.QrImg {
+  width: 92px;
+  height: 92px;
+}
+.ImgProof {
+  width: 124px;
+  height: 124px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.ImgProofModal {
+  width: 124px;
+  height: 124px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.MainImgProof {
+  margin-top: 16px !important;
+  margin-right: 12px !important;
+}
+.MainImgProofModal {
+  margin-top: 16px !important;
+  margin-right: 12px !important;
+}
+.TitleProof {
+  font-size: 14px;
+  display: inline-block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  margin-top: 4px !important;
+}
+.TitleProofModal {
+  font-size: 14px;
+  display: inline-block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+.P_imgProofs {
+  margin-top: 16px !important;
+}
+.Elips {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 4px;
+  margin-right: 16px;
+}
+.ChainItem {
+  margin-top: 18px !important;
+  position: relative;
+}
+.P_ChainItem {
+  font-size: 12px;
+  margin-top: 8px !important;
+  overflow: hidden;
+}
+.MoreInfo {
+  font-size: 12px !important;
+}
+.LineChain {
+  display: inline-block;
+  width: 1.5px;
+  background-color: #eef0f3;
+  height: 28px;
+  position: absolute;
+  left: 8px;
+  top: 29px;
+}
+.LimittedBtn {
+  margin-top: -48px !important;
+  margin-bottom: 16px !important;
+  white-space: nowrap;
+}
+.InputPrice {
+  width: 180px;
+  height: 40px;
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.InputPrice:focus {
+  border-color: #3772ff;
+}
+.InputPrice::placeholder {
+  opacity: 1;
+  font-size: 14px;
+  color: #a8b3bc;
+}
+.P_InputText {
+  padding-bottom: 6px !important;
+  margin-top: 16px !important;
+}
+.OfferP {
+  font-size: 14px;
+  color: #83909d;
+}
+.B_Buy,
+.B_Inq {
+  flex: 1;
+  width: 208px;
+}
+.B_Buy {
+  margin-right: 12px !important;
+}
+.HeaderBlack {
+  width: 100%;
+  height: 128px;
+  background-color: #242328;
+  position: relative;
+  margin-bottom: 85px !important;
+}
+.Artist {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 200px;
+  outline: 4px solid white;
+}
+/* Safari 10.1+ (alternate method) */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .Artist {
+      outline: none !important;
+      border: 4px solid white !important;
+    }
+  }
+}
+.ArtistName {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.Creator_Location {
+  font-size: 12px;
+  color: #83909d;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 8px !important;
+}
+.ArtistTab {
+  background: #ffffff !important;
+  border: 2px solid #eef0f3 !important;
+  border-radius: 4px !important;
+  min-width: 40px !important;
+  padding: 3px 12px !important;
+  margin-right: 8px !important;
+  font-weight: 400 !important;
+}
+.ArtistTab_Sel {
+  background: #242328 !important;
+  border: 2px solid #242328 !important;
+  border-radius: 4px !important;
+  min-width: 40px !important;
+  padding: 3px 12px !important;
+  color: white !important;
+  margin-right: 8px !important;
+  font-weight: 400 !important;
+}
+
+.ArtistMenu {
+  margin-top: 32px !important;
+  padding: 0 160px;
+}
+.OvText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+}
+.Overview {
+  margin-top: 40px !important;
+}
+.Biography {
+  padding: 24px;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  margin-top: 24px !important;
+}
+.Biography_Text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.Cat_Text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px !important;
+}
+.Biography_Dummy {
+  font-size: 14px;
+  margin-top: 16px !important;
+}
+.RelatedCategory {
+  padding: 24px;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  margin-top: 24px !important;
+}
+.CategoryItem {
+  font-size: 12px;
+  font-weight: 500;
+  background: #f7f8fa;
+  border-radius: 6px;
+  padding: 4px 12px 6px 12px;
+  margin-top: 8px !important;
+  margin-right: 8px !important;
+}
+.ArtworkText {
+  text-align: center;
+  color: #83909d;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Artworks {
+  margin-top: 40px !important;
+  margin: 40px 0px !important;
+}
+.TypeArtwork {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 8px;
+  background: #a6e9de;
+  border-radius: 4px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.ImageArtwork {
+  width: 256px;
+  height: 256px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.ArtworkItem {
+  margin-right: 32px !important;
+  margin-top: 24px !important;
+}
+.Model {
+  margin-top: 10px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.PriceArt {
+  color: #3772ff;
+  margin-top: 12px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ViewAll {
+  background: #f7f8fa !important;
+  border-radius: 8px !important;
+  margin-top: 24px !important;
+  padding: 10px 24px !important;
+}
+.CV {
+  text-align: center;
+  margin-top: 16px !important;
+}
+.CVText {
+  color: #83909d;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ProfessionalAppointments {
+  padding: 24px;
+  text-align: start;
+  font-weight: 500;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  margin-top: 24px !important;
+}
+.Section {
+  background: #f7f8fa;
+  border-radius: 6px;
+  position: relative;
+  margin-top: 16px !important;
+}
+.SecItem {
+  font-size: 12px;
+  padding: 16px 0;
+  margin: 0 16px !important;
+  color: #83909d;
+  border-bottom: 1px solid #eef0f3;
+  font-weight: 400;
+}
+.SecValue {
+  color: #242328;
+}
+.ArtistPage {
+  margin-bottom: 200px !important;
+}
+.LineFake2 {
+  position: absolute;
+  width: 98%;
+  height: 2px;
+  background-color: #f7f8fa;
+  bottom: 0;
+  display: inline-block;
+  left: 16px;
+}
+.MenuOnScroll {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition-timing-function: ease;
+  transition: 0.3s;
+  z-index: -100;
+  opacity: 0;
+  height: 80px;
+  border-bottom: 1px solid #eef0f3;
+  background-color: white;
+}
+.ShowMe {
+  opacity: 1;
+  z-index: 10000;
+}
+.ArtistInfoOnScroll {
+  position: absolute;
+  left: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.InfoArtist {
+  margin-left: 12px !important;
+  font-size: 12px;
+}
+.P_ButtonInScroll {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.LocatipnOnScroll {
+  color: #83909d;
+}
+.NameOnScroll {
+  font-weight: 500;
+  margin-bottom: 2px !important;
+}
+.TypeAlies {
+  color: #83909d;
+  font-weight: 400;
+}
+.ImgOnScroll {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  object-fit: cover;
+  position: relative;
+  top: 3px;
+}
+.FixedButton {
+  position: fixed;
+  top: 21.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10001;
+}
+.SpaceBtn {
+  height: 34.5px;
+}
+.ForId {
+  position: relative;
+  top: -90px;
+  display: inline-block;
+}
+.Body {
+  margin-top: 100px !important;
+  margin-left: 448px !important;
+  margin-right: 448px !important;
+}
+.RegisterRightSide {
+  flex: 1;
+  margin-left: 18px !important;
+}
+.HaveAccount {
+  font-weight: 500;
+}
+.HaveAccount1 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.SignInText {
+  font-size: 14px;
+  color: #83909d;
+  margin-top: 8px !important;
+}
+.DarkText {
+  color: #242328;
+}
+.UnderLine {
+  text-decoration: underline;
+}
+.Main {
+  border: 1.5px solid #eef0f3;
+  border-radius: 6px;
+  padding: 24px;
+  margin-top: 32px !important;
+}
+.MainCart {
+  margin-top: 32px !important;
+}
+.Main_TimeLine {
+  border: 1.5px solid #eef0f3;
+  border-radius: 6px;
+  padding: 24px;
+  margin-top: 32px !important;
+}
+.MakeText {
+  font-weight: 500;
+}
+.RejectBtn {
+  width: 100% !important;
+  background-color: #eef0f3 !important;
+  border-radius: 6px !important;
+  height: 48px !important;
+}
+.PayBtn {
+  width: 100% !important;
+  background-color: #242328 !important;
+  color: white !important;
+  border-radius: 6px !important;
+  height: 48px !important;
+}
+.P_Btn {
+  margin-right: 16px !important;
+  flex: 1;
+}
+.P_Btn1 {
+  flex: 1;
+}
+.ContainerButtons {
+  margin-top: 16px !important;
+}
+.content {
+  font-size: 14px;
+  padding-bottom: 12px;
+  position: relative;
+}
+.box {
+  display: flex;
+  min-height: min-content; /* needs vendor prefixes */
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+}
+.box:hover .C_Count {
+  opacity: 0;
+  display: none;
+}
+.box:hover .Rm_btn {
+  opacity: 1;
+  display: inline-block !important;
+}
+.p_imgTable {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  white-space: nowrap;
+  margin-right: 40px;
+  min-width: 160px;
+}
+.ImgArtworkNew {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+  bottom: 3px;
+}
+.p_art_artist {
+  margin-left: 12px;
+  display: inline-block;
+  position: relative;
+  bottom: 16px;
+}
+.artworkName {
+  font-size: 14px;
+  font-weight: 500;
+}
+.artistName {
+  font-size: 12px;
+  color: #83909d;
+}
+
+.data {
+  margin-right: 60px;
+  display: inline-block;
+  min-width: 63px;
+}
+.Count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  min-width: 15px;
+  width: 45px;
+}
+.C_Count {
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+.box:hover .C_Count {
+  opacity: 0;
+  display: none;
+}
+
+.Rm_btn {
+  display: none !important;
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: relative !important;
+  bottom: 2px;
+}
+.box:hover .Rm_btn {
+  opacity: 1;
+  display: inline-block !important;
+}
+
+.Main_1 {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+  padding: 20px 20px 12px 20px;
+  margin-top: 30px !important;
+}
+.TitleMainCV {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+  margin-bottom: 18px !important;
+}
+.TextNoArt {
+  font-size: 14px;
+  color: #a8b3bc;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #eef0f3;
+  width: 100%;
+}
+.P_Switch_1 {
+  padding: 23px 0 20px 0;
+  border-top: 1px solid #eef0f3;
+}
+.PaidText {
+  font-size: 14px;
+  font-weight: 500;
+}
+.P_ArtworkSec_1 {
+  padding: 20px 0;
+  border-top: 1px solid #eef0f3;
+}
+.Discount {
+  font-size: 14px;
+  color: #83909d;
+}
+.price {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+}
+.P_ArtworkSec_2 {
+  padding: 20px 0 10px 0;
+  border-top: 1px solid #eef0f3;
+}
+.TotalPaid {
+  font-size: 14px;
+  font-weight: 500;
+}
+.price_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+}
+.P_ArtworkSec {
+  padding: 13px 0;
+  border-top: 1px solid #eef0f3;
+}
+.Discount {
+  font-size: 14px;
+  color: #83909d;
+}
+.percentDiscount {
+  color: #83909d;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  left: 8px;
+}
+.fitBtn_1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  right: 8px;
+}
+.fitBtn_1:hover {
+  background-color: transparent !important;
+}
+.fitBtn_12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  right: 8px;
+  color: #a8b3bc !important;
+}
+.p_orders_items {
+  overflow: auto;
+  margin-top: 22px !important;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+.p_orders_items::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Track */
+.p_orders_items::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.p_orders_items::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.p_orders_items::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.box_title {
+  display: flex;
+  min-height: min-content; /* needs vendor prefixes */
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-bottom: 18px;
+}
+.p_imgTable {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  white-space: nowrap;
+  margin-right: 40px;
+  min-width: 160px;
+}
+.TitleFont {
+  color: #a8b3bc !important;
+  font-size: 12px !important;
+}
+.webSite {
+  margin-right: 30px;
+  display: inline-block;
+  /* width: 132px; */
+  white-space: nowrap;
+  min-width: 103px;
+}
+.data {
+  margin-right: 60px;
+  display: inline-block;
+  min-width: 63px;
+}
+.Count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  min-width: 15px;
+  width: 45px;
+}
+.TitleFont1 {
+  color: #a8b3bc !important;
+  font-size: 12px !important;
+  position: relative;
+  left: 4px;
+}
+.Icondelete {
+  opacity: 0;
+  display: none !important;
+}
+.content_shipping:hover .Icondelete {
+  opacity: 1;
+  display: inline-block !important;
+}
+.content_shipping:hover .NumCount {
+  opacity: 0;
+  display: none;
+}
+.content_shipping {
+  font-size: 14px;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  position: relative;
+}
+
+.content_shipping2:hover .Icondelete {
+  opacity: 1;
+  display: inline-block !important;
+}
+.content_shipping2:hover .NumCount {
+  opacity: 0;
+  display: none;
+}
+.content_shipping2 {
+  font-size: 14px;
+  padding-bottom: 30px;
+  margin-top: 7px !important;
+  position: relative;
+}
+
+.DateText {
+  font-size: 12px;
+  color: #83909d;
+  margin-top: 3px;
+}
+.TitleItems {
+  font-size: 16px;
+  font-weight: 500;
+}
+.TimeLineText {
+  font-weight: 500;
+  margin-top: 0px !important;
+  margin-bottom: 24px !important;
+}
+.ImgTimeLine {
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+}
+.P_InputTimeLine {
+  flex: 1;
+  margin-left: 15px !important;
+  margin-right: 8px !important;
+  position: relative;
+}
+.InputTimeLine {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 50px;
+}
+.InputTimeLine:focus {
+  outline: none;
+  border: 2px solid #3772ff;
+}
+.InputTimeLine::placeholder {
+  opacity: 1;
+}
+.P_ContactCreated {
+  margin-top: 13px !important;
+  padding-left: 0px;
+  overflow: hidden;
+}
+.ButtonSend {
+  border-radius: 8px !important;
+  padding: 7px 22px !important;
+}
+.Emoji {
+  position: absolute;
+  right: 11px;
+  top: 10px;
+  cursor: pointer;
+}
+.LineEmoji {
+  display: inline-block;
+  width: 1px;
+  height: 22px;
+  background-color: #eef0f3;
+}
+.ImgEmoji {
+  margin-left: 9px;
+}
+.ContactCreated {
+  position: relative;
+  margin-bottom: 17px !important;
+}
+.TextContact {
+  font-size: 14px;
+}
+.Elipse {
+  margin-right: 24px;
+  position: relative;
+  top: 5px;
+}
+.DateContact {
+  font-size: 12px;
+  color: #83909d;
+}
+.Date {
+  padding: 1px 18px 1px 0;
+  border-right: 1px solid #eef0f3;
+}
+.Time {
+  padding-left: 13px;
+}
+.ContactDesk {
+  font-size: 12px;
+  color: #83909d;
+  margin-left: 44px !important;
+  margin-top: 8px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 450px;
+  white-space: nowrap;
+}
+.LineContact {
+  display: inline-block;
+  width: 2px;
+  background-color: #eef0f3;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  left: 9px;
+}
+.BgPayement {
+  background: #f7f8fa;
+  /* Light/Gray */
+
+  border: 1px solid #f7f8fa;
+  border-radius: 6px;
+  padding: 16px;
+}
+.ProccedBtn {
+  padding: 14px 24px !important;
+  position: absolute !important;
+  right: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 12px !important;
+  width: 173px !important;
+}
+.ProccedBtn_3 {
+  padding: 6px 16px !important;
+  position: absolute !important;
+  right: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 6px !important;
+  width: 131px !important;
+}
+.CheckBox {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  z-index: 10;
+}
+.CheckBox2 {
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  z-index: 10;
+}
+.p_left {
+  padding-left: 40px;
+}
+.P_InputEmail {
+  width: 297px;
+}
+.InputEmail {
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  border-color: transparent;
+  height: 40px;
+  font-weight: 500;
+  padding-left: 14px;
+}
+.InputEmail:focus {
+  border: 2px solid #3772ff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.InputEmail::placeholder {
+  font-size: 14px;
+  opacity: 1;
+}
+.WrapperCheckOut {
+  padding: 0 160px;
+  margin-top: 80px !important;
+  margin-bottom: 100px !important;
+}
+.Continue {
+  padding: 10px 24px !important;
+  background: #000000 !important;
+  border-radius: 6px !important;
+  color: white !important;
+  max-height: 40px !important;
+}
+.ContinueP {
+  padding: 10px 24px !important;
+  background: #000000 !important;
+  border-radius: 6px !important;
+  color: white !important;
+  max-height: 40px !important;
+  margin-top: 24px !important;
+}
+.P_Continue {
+  margin-left: 12px !important;
+}
+.ContactInfo {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 22px !important;
+}
+.ContactInfo1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 22px !important;
+  color: #767676;
+}
+.TextAboutEmail {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 50%;
+  margin-top: 16px !important;
+  max-width: 361px;
+}
+.KeepUpdate {
+  margin-top: 14px !important;
+}
+.HaveAccount {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px !important;
+}
+.P_Shipping {
+  font-size: 18px;
+  font-weight: 500;
+  color: #d0d0d0;
+  margin-top: 26px !important;
+  border-top: 1px solid #f2f2f2;
+}
+.Shipping {
+  margin-top: 26px !important;
+}
+.LeftSec {
+  flex: 1;
+  padding-right: 128px;
+}
+.Check_RightSide {
+  width: 352px;
+  background: #ffffff;
+  border: 1px solid rgba(235, 235, 235, 0.54);
+  box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  padding: 23px 0 10px 0;
+  height: fit-content;
+}
+.SellerImg {
+  width: 67px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-top: 8px !important;
+}
+.GalleryName {
+  color: #3c3c3c;
+  font-size: 12px;
+  padding-left: 32px;
+}
+.ItemImage {
+  width: 96px;
+  height: 96px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+.TextItem {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 15px !important;
+  position: relative;
+  bottom: 3px;
+}
+.ItemTxt {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px !important;
+  margin-bottom: -3px !important;
+}
+.SellerTxt {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Item {
+  margin-top: 10px !important;
+}
+.WarpperSellerItem {
+  padding: 0 24px 17px 24px;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.54);
+}
+.SubTotal {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+.P_Sections {
+  padding: 28px 21px 25px 21px;
+  border-bottom: 1px solid #eef0f3;
+}
+.P_Sections2 {
+  padding: 28px 21px 0px 21px;
+}
+.P_Sections3 {
+  padding: 15px 21px 25px 21px;
+  border-bottom: 1px solid #eef0f3;
+}
+.Doller {
+  margin-right: 15px !important;
+  color: #7d7d7d;
+}
+.PriceSec {
+  font-size: 14px;
+  font-weight: 500;
+}
+.PriceSec2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+.AddNote {
+  color: #7d7d7d;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 21px;
+  display: inline-block;
+  width: 100%;
+  padding-right: 21px;
+}
+.Plus {
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  top: 6px;
+  margin-right: 7px !important;
+}
+.EditText {
+  font-size: 10px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #767676;
+  margin-left: 20px !important;
+  position: relative;
+  bottom: 2px;
+}
+.AddShipping {
+  padding-top: 16.5px;
+  border-top: 1px solid #f2f2f2;
+}
+.P_payMethod {
+  padding-top: 27px;
+  border-top: 1px solid #f2f2f2;
+}
+.AddText {
+  font-size: 18px;
+}
+.TwoInput {
+  flex: 1;
+  margin-right: 24px !important;
+}
+.TwoInput1 {
+  flex: 1;
+}
+.ChooseShipping {
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  padding: 24px 24px 18px 24px;
+  margin-top: 16px !important;
+}
+.ChoosetTxt {
+  font-weight: 500;
+  font-size: 16px;
+  color: #83909d;
+}
+.PriceShipping {
+  padding-left: 16px;
+  margin-left: 16px !important;
+  border-left: 1px solid #eef0f3;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  bottom: 2px;
+}
+.ImhShip {
+  position: relative;
+  bottom: 2px;
+}
+.ShippingItem {
+  padding: 22px 0 17px 0;
+  border-bottom: 1px solid #eef0f3;
+}
+.BtnReq {
+  margin-top: 17px !important;
+}
+
+.AddBtn {
+  cursor: pointer;
+  display: inline-block !important;
+}
+.PayMethod {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px !important;
+}
+.Input_CardName {
+  outline: none;
+  background: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 500;
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  height: 40px;
+  margin-top: 17px;
+  padding-left: 10px;
+}
+.Input_CardName::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaaaaa;
+  opacity: 1;
+}
+.Input_CardName:focus {
+  border-color: #3772ff;
+}
+.P_Expiration {
+  width: 176px;
+  margin-right: 8px !important;
+}
+.P_CVV {
+  width: 81px;
+}
+.TextSubmit {
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+  margin-left: 32px !important;
+  color: #7d7d7d;
+}
+.P_SubmitText {
+  background: #eef0f3;
+  padding: 24px;
+  margin-top: 18px !important;
+}
+.SubText {
+  color: #242328;
+  cursor: pointer;
+}
+.ImgForDel {
+  margin-right: 17px !important;
+  position: relative;
+  top: 2px;
+}
+.CartInfo {
+  font-size: 13px;
+  font-weight: 500;
+  color: #767676;
+  margin-top: 22px !important;
+}
+.PriceTxt {
+  font-size: 36px;
+  font-weight: 600;
+  width: 50%;
+}
+.P_ButtonSubmit {
+  width: 50%;
+}
+.ButtonSubmit {
+  width: 100%;
+  border-radius: 6px !important;
+  height: 40px !important;
+}
+.TotalText {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px !important;
+  margin-bottom: 3px !important;
+}
+.ChooseCollection {
+  background: #f7f8fa;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  padding: 24px;
+}
+.AccountStatuse {
+  background: #f7f8fa;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  padding: 24px;
+}
+.WrapperSetting {
+  padding: 148px 304px;
+}
+.WrapperCommunity {
+  margin: 40px 0px !important;
+}
+.RightChoose {
+  flex: 1;
+  margin-left: 16px !important;
+}
+.TextTranfer {
+  color: #727986;
+  font-size: 14px;
+  margin-top: 16px !important;
+}
+.ChooseBtn {
+  height: 40px !important;
+  margin-top: 16px !important;
+  border-radius: 6px !important;
+}
+.AccountBtn {
+  height: 40px !important;
+  margin-top: 16px !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 16px !important;
+  height: 32px !important;
+}
+.p_table {
+  margin-top: 0px !important;
+}
+.LineHTable {
+  display: inline-block;
+  width: 100%;
+  height: 1.5px;
+  background-color: #f5f7fa;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.P_tableArtists_MobileScroll::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 2px;
+  width: 4px;
+}
+
+/* Track */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+/* Handle */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2px;
+}
+.P_tableArtists_MobileScroll {
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+.tableArtists_MobileScroll {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.header_table {
+  text-align: left;
+  height: 62px;
+  position: relative;
+}
+.headerArtist {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 85px;
+  padding-left: 10px;
+}
+.headerName {
+  width: 219px;
+}
+.headerPhone {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 360px;
+}
+.headerCost {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 360px;
+}
+.tableData_old {
+  height: 94px;
+  position: relative;
+}
+.artist_checkBox {
+  position: relative;
+  top: 3px;
+}
+.artist_Pic {
+  padding-left: 10px;
+  width: 293px;
+  white-space: nowrap;
+}
+.ArtworkN {
+  position: relative;
+  bottom: 23px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 24px;
+}
+.imgArtworkModal {
+  position: relative !important;
+  top: 3px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+.nameArtist {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  position: relative;
+  right: 8px;
+}
+.PhoneArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.emailArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+
+.Scroll {
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+/* width */
+.Scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* Track */
+.Scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.Scroll::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.Scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.tableArtists_12 {
+  width: 100%;
+  overflow: hidden;
+}
+.header_table_1 {
+  margin-bottom: 10px !important;
+}
+.header_checkbox {
+  width: 35px;
+}
+.headerArtwork_10 {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 170px;
+}
+.headerName_1 {
+  flex: 1;
+}
+.headerLimitted {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.headerSize {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 120px;
+}
+.headerWeight {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 65px;
+}
+.tableData_new {
+  height: 78px;
+  position: relative;
+  margin-top: 15px !important;
+}
+.artist_checkBox_Br {
+  padding-top: 7px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 35px;
+}
+.ArtworkImg {
+  width: 73px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.imgArtworkModal {
+  position: relative !important;
+  top: 3px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+.nameArtist_Br_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  flex: 1;
+}
+.artistName {
+  font-size: 12px;
+  color: #83909d;
+}
+.LimittedSec {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 150px;
+}
+.SizeSec {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 120px;
+}
+.WeightSec {
+  font-size: 14px;
+  font-weight: 400;
+  width: 65px;
+}
+.lineTable_top {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 1px;
+  background-color: #eef0f3;
+}
+
+/* Ops */
+.CollectionItem {
+  padding: 16px 16px 9px 16px;
+  border: 2px solid #eef0f3;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 12px !important;
+}
+.CollectionItem:hover {
+  background-color: #f7f8fa;
+}
+.CollectionItem_Selected {
+  padding: 16px 16px 9px 16px;
+  border: 2px solid #3772ff;
+  background-color: #f1f9fe;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 12px !important;
+}
+
+.ColText {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px !important;
+}
+.AboutCol {
+  font-size: 12px;
+  color: #83909d;
+}
+
+.P_Col {
+  flex: 1;
+  margin-left: 12px !important;
+  position: relative;
+  bottom: 5px;
+}
+.Menu {
+  padding: 12px 24px;
+  background: #f7f8fa;
+  border-radius: 8px;
+}
+.MenuItem {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 0;
+  cursor: pointer;
+}
+.MenuItem_DeActive {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 0;
+  cursor: pointer;
+  color: #83909d;
+}
+.BadgeOrange {
+  padding: 0px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #fed6cc;
+  margin-right: 12px !important;
+}
+.BadgeGary {
+  padding: 0px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #eef0f3;
+  margin-right: 12px !important;
+}
+.BadgeGreenNew {
+  padding: 0px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #a6e9de;
+  margin-right: 12px !important;
+}
+.LeftSide_Com {
+  width: 256px;
+  margin-right: 32px !important;
+  margin-left: 160px !important;
+}
+.CreatorText {
+  font-weight: 500;
+}
+
+.P_Profile {
+  margin-top: 16px !important;
+}
+.Profile {
+  max-width: 345px;
+}
+.ProfileImg {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.ProfileName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px !important;
+  position: relative;
+  bottom: 4px;
+}
+.P_NewCreator {
+  position: relative;
+  top: 3px;
+}
+.NewCreator {
+  color: #83909d !important;
+}
+.P_Creator {
+  margin-top: 32px !important;
+}
+.RightSide_Com {
+  flex: 1;
+  margin-right: 160px !important;
+}
+.TextProfile {
+  font-size: 12px;
+  max-width: 264px;
+}
+.P_LogInIns {
+  margin-top: 24px !important;
+}
+.BadgeBlue {
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #3772ff;
+  margin-right: 6px;
+  position: relative;
+  bottom: 1px;
+}
+.InstaUserName {
+  font-size: 12px;
+  font-weight: 500;
+  color: #83909d;
+}
+.BgUserName {
+  background: #f7f8fa;
+  border-radius: 6px;
+  padding: 6px 10px 6px 16px;
+  margin-top: 26px !important;
+}
+.ContactInfo {
+  margin-top: 32px !important;
+}
+.P_LeftInput {
+  width: 26.5%;
+  margin-right: 16px !important;
+}
+.P_RightInput {
+  flex: 1;
+}
+.VerifyBtn {
+  border-radius: 6px !important;
+  padding: 6px 16px !important;
+}
+.LogInIns {
+  width: 315px;
+  height: 42px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 129, 0, 0.83) -12.5%,
+    rgba(216, 45, 126, 0.99) 28.12%,
+    rgba(240, 96, 49, 0.92) 59.36%,
+    rgba(216, 45, 126, 0.86) 99.98%
+  );
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.ImgIns {
+  margin-right: 18px;
+}
+.AccountStatuse {
+  background: #f7f8fa;
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  padding: 24px;
+}
+.SpaceAccounts{
+  margin-top: 40px !important;
+}
+.Main{
+  border: 1px solid #EEF0F3;
+  border-radius: 8px;
+  padding: 24px;
+}
+.TitleMain{
+  font-size: 16px;
+  font-weight: 500;
+  color: #83909D;
+  padding: 16px;
+}
+.SecTitle{
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+}
+.SectionMain{
+  padding: 12px 16px;
+  background: #F7F8FA;
+  border-radius: 6px;
+}
+.HeaderSection{
+  cursor: pointer;
+  position: relative;
+  bottom: 2px;
+}
+.LineSections{
+  display: block;
+  background-color: #EEF0F3;
+  height: 1px;
+  margin-top: 3px;
+}
+.EducationItem{
+  padding: 16px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin-top: 16px !important;
+}
+.P_Main{
+  margin-right: 279px !important;
+}
+.PublishedText{
+  color: #83909D;
+  font-size: 12px;
+  font-weight: 500;
+}
+.Sharp{
+  font-size: 14px;
+  font-weight: 500;
+  color: #242424;
+  margin-right: 8px;
+}
+.UnPublishBtn{
+  background: #F7F8FA !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 8px 16px !important;
+}
+.PublishBtn{
+  background: #242328 !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 8px 16px !important;
+  color: white !important;
+}
+.EditBtn{
+  margin-right: 8px !important;
+}
+.EditBtn:hover{
+  background-color: transparent !important;
+}
+.ItemTitle{
+  font-size: 12px;
+  font-weight: 500;
+  color: #83909D;
+  flex: 1;
+}
+.ItemValue{
+  font-size: 12px;
+}
+.P_ItemTitleValue{
+  margin-top: 16px !important;
+}
+.ImgArrow{
+  position: relative;
+  top: 2px;
+}
+.NotRecBtn{
+  border-radius: 6px !important;
+  height: 32px !important;
+  font-size: 12px !important;
+}
+.P_NotRec{
+  position: relative;
+  bottom: 4px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .WidthTable{
+    max-width: 85vw;
+  }
+  .ArtworkN{
+    margin-left: 12px !important;
+  }
+  .tableArtists_MobileScroll{
+    width: 850px;
+  }
+  .ColseIcon{
+    position: relative;
+    top: 43px;
+  }
+  .headerCost{
+    width: 250px;
+  }
+  .headerPhone{
+    width: 250px;
+  }
+  .DontRecText{
+    font-weight: 500;
+    order: 2;
+    margin-top: 16px !important;
+  }
+  .P_NotRecBtn{
+    order: 1;
+    flex: 1;
+  }
+  .NotRecBtn{
+    float: right;
+  }
+  .Main{
+    padding: 16px;
+  }
+  .P_Main{
+    margin-right: 0 !important;
+  }
+  .P_VerifyAc {
+    margin-top: 16px !important;
+  }
+  .P_RightInput {
+    width: 100%;
+    margin-top: -15px !important;
+  }
+  .P_LeftInput {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .BgUserName {
+    margin-top: 32px !important;
+  }
+  .LogInIns {
+    width: 100%;
+    margin-top: 16px !important;
+  }
+  .BadgeOrange {
+    padding: 0px 8px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #fed6cc;
+    margin-right: 6px !important;
+  }
+  .BadgeGary {
+    padding: 0px 8px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #eef0f3;
+    margin-right: 6px !important;
+  }
+  .BadgeGreenNew {
+    padding: 0px 8px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #a6e9de;
+    margin-right: 6px !important;
+  }
+
+  .LeftSide_Com {
+    margin: 0 !important;
+    width: 100%;
+    margin-top: 37px !important;
+  }
+  .Menu {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100vw !important;
+    display: block !important;
+    border-radius: 0;
+  }
+  .MenuItem,
+  .MenuItem_DeActive {
+    display: inline-block !important;
+    margin-right: 24px !important;
+  }
+  .NewCreator {
+    min-width: 10px !important;
+  }
+  .RightSide_Com {
+    margin-right: 24px !important;
+    margin-top: 24px !important;
+    margin-left: 24px !important;
+  }
+  .Name {
+    left: 80px;
+  }
+  .HeaderSetting {
+    padding: 11px 10px;
+  }
+  .WrapperCommunity {
+    margin: 30px 0 !important;
+  }
+  .tableArtists_12 {
+    width: 800px;
+  }
+  .P_ArtworkSec {
+    padding: 7px 0;
+  }
+  .Main {
+    margin-top: 24px !important;
+  }
+  .TimeLineText {
+    margin-bottom: 16px !important;
+  }
+  .P_ContactCreated {
+    padding-left: 20px;
+  }
+  .Main_TimeLine {
+    border: none;
+    padding: 0px;
+    margin-top: 24px !important;
+  }
+  .P_Btn {
+    flex: none;
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .P_Btn1 {
+    flex: none;
+    width: 100%;
+    margin-top: 12px !important;
+  }
+  .Rm_btn {
+    display: inline-block !important;
+    opacity: 1;
+  }
+  .LineContact {
+    display: inline-block;
+    width: 2px;
+    background-color: #eef0f3;
+    height: 63px;
+    position: absolute;
+    top: -64px;
+    left: 9px;
+  }
+  .ContactDesk {
+    max-width: 250px;
+  }
+  .DateContact {
+    position: absolute;
+    bottom: -26px;
+    left: 44px;
+  }
+  .ContactCreated {
+    margin-bottom: 43px !important;
+  }
+  .Emoji {
+    position: absolute;
+    left: -10px;
+    right: unset;
+    top: 59px;
+    cursor: pointer;
+  }
+
+  .P_SendBtn {
+    position: absolute;
+    right: 0;
+    bottom: -38px;
+  }
+  .P_InputTimeLine {
+    margin-right: 0 !important;
+  }
+  .Count {
+    white-space: nowrap;
+  }
+  .P_ImageInput {
+    position: relative;
+    margin-bottom: 50px !important;
+  }
+
+  .p_orders_items::-webkit-scrollbar-thumb {
+    background: #242328;
+    border-radius: 8px;
+  }
+  .p_orders_items::-webkit-scrollbar {
+    height: 4px;
+  }
+  .p_orders_items {
+    margin-top: 25px !important;
+  }
+  .P_Switch_1 {
+    margin-top: 20px !important;
+    border-top: 1px solid #eef0f3;
+  }
+  .C_Count {
+    display: inline-block;
+  }
+  .Count {
+    white-space: nowrap;
+  }
+  .p_imgTable {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    white-space: nowrap;
+    margin-right: 30px;
+  }
+  .box:hover .C_Count {
+    opacity: 1;
+    display: inline-block;
+  }
+  .Body {
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+  }
+  .ForId {
+    top: -10px;
+  }
+  .ImageArtwork {
+    width: 100%;
+  }
+  .ArtworkItem {
+    width: 100%;
+  }
+  .ArtworkItem {
+    margin-right: 0 !important;
+  }
+  .ArtistMenu {
+    padding: 0 24px;
+  }
+  .LimittedBtn {
+    margin-top: 8px !important;
+    margin-bottom: 24px !important;
+    white-space: nowrap;
+  }
+  .Elips {
+    margin-right: 8px !important;
+  }
+  .P_ChainItem {
+    margin-top: 0 !important;
+  }
+  .MainImgProof {
+    margin-right: 0 !important;
+  }
+  .ImgProof {
+    width: 155px;
+    height: 155px;
+  }
+  .P_Buy {
+    margin-top: 24px !important;
+  }
+  .Qrcode {
+    margin-left: 0 !important;
+    top: 0;
+  }
+  .Inq {
+    width: 100% !important;
+    margin-top: 12px !important;
+  }
+  .Buy {
+    width: 100% !important;
+    margin-top: 32px !important;
+  }
+  .B_Buy {
+    order: 2;
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .B_Inq {
+    order: 3;
+    width: 100%;
+  }
+  .Qrcode {
+    order: 1;
+  }
+  .TinyImg {
+    width: 48px;
+    height: 48px;
+    margin-top: 6px;
+  }
+  .TinyImg1 {
+    width: 48px;
+    height: 48px;
+    margin-top: 6px;
+  }
+  .P_AboutArtwork {
+    margin-top: 10px !important;
+  }
+  .ButtonList {
+    margin-top: 12px !important;
+  }
+  .Header {
+    padding: 12px 24px;
+    border-bottom: 1px solid #eef0f3;
+  }
+  .LeftSide {
+    margin-right: 0 !important;
+    width: 100%;
+  }
+  .P_ArtworkInfo {
+    margin-top: 90px !important;
+  }
+  .P_RightImg {
+    margin-top: 18px !important;
+  }
+  .P_ArtworkInfo {
+    padding: 0 24px;
+  }
+  .ImgArtwork {
+    width: 100%;
+  }
+  .RightSide {
+    width: 100%;
+  }
+  .RightSide_V2 {
+    width: 100%;
+  }
+  .StartVerifing {
+    padding: 14px 24px 14px 24px;
+    border-radius: 12px !important;
+  }
+  .CancelVerifing {
+    padding: 14px 24px 14px 24px;
+    border-radius: 12px !important;
+  }
+  .P_StartVer {
+    margin-top: 24px !important;
+  }
+  .MnText {
+    padding: 12px 0;
+  }
+  .AvText {
+    padding: 18px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .p_orders_items {
+    max-width: 370px !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .p_orders_items {
+    width: 310px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .p_orders_items {
+    width: 290px !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  .p_orders_items {
+    width: 272px !important;
+  }
+}

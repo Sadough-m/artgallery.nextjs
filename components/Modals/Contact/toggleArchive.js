@@ -1,0 +1,92 @@
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+// gm : material ui ↓
+import {
+  Button,
+  Fade,
+  Grid,
+  Hidden,
+  IconButton,
+  Modal,
+} from "@material-ui/core";
+import { StylesContext } from "@material-ui/styles";
+import Backdrop from "@material-ui/core/Backdrop";
+import { makeStyles } from "@material-ui/core/styles";
+
+// gm : styles ↓
+import style from "../../../styles/Home.module.css";
+
+// gm : files ↓
+import closeIcon from "../../../public/images/icons/Close12.svg";
+import archivePng from "../../../public/images/remove img Modal.png";
+
+// gm : components ↓
+
+export default function RemoveAddress({ open, item, handleToggle, handleModal }) {
+  // gm : states ↓
+  const Name = typeof window !== "undefined" ? localStorage.getItem("contact-archiving-name") || "" : "";
+
+  return (
+    <Grid item>
+      <Modal
+        aria-labelledby="transition-modal-title"
+        aria-describedby="transition-modal-description"
+        open={open}
+        onClose={handleModal}
+        closeAfterTransition
+        className={style.newModal}
+        BackdropComponent={Backdrop}
+        BackdropProps={{
+          timeout: 500,
+        }}
+      >
+        <Fade in={open}>
+          <Grid item className={style.wrapper_modal440}>
+            {/* title */}
+            <Grid container justifyContent="space-between" alignItems="center">
+              <Grid item className={style.fitPic}>
+                <img src={archivePng.src} />
+              </Grid>
+              <Grid item>
+                <IconButton
+                  size="small"
+                  className={style.border_btn}
+                  onClick={handleModal}
+                >
+                  <img src={closeIcon.src} />
+                </IconButton>
+              </Grid>
+            </Grid>
+
+            {/* body */}
+            <Grid item className={style.bodyModal}>
+              {/* text */}
+              <Grid item className={style.bodyModal}>
+                You are archiving “{Name ? Name : ""}”,{" "}
+                <Hidden xsDown>
+                  <br />
+                </Hidden>{" "}
+                Are you sure?
+              </Grid>
+            </Grid>
+
+            {/* footer */}
+            <Grid item className={style.p_buttonModal}>
+              <Button
+                fullWidth
+                color="primary"
+                variant="contained"
+                className={style.buttonModal}
+                onClick={() => { handleDeleteAddress(item?.id) }}
+              >
+                Yes, Archive
+              </Button>
+            </Grid>
+          </Grid>
+        </Fade>
+      </Modal>
+    </Grid>
+  );
+}

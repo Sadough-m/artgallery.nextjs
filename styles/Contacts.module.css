@@ -1,0 +1,779 @@
+.Wrapper{
+    margin: 20px 25px !important;
+    flex:1;
+    min-height: 85vh;
+}
+
+.badgeGreen{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    bottom: 2px;
+    border-radius: 50px;
+    background-color: #A6E9DE;
+    margin-right: 10px;
+}
+.titleText{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.MainLoading{
+    text-align: center;
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.addButton{
+    border-radius: 8px !important;
+    padding: 8px 23px !important;
+}
+.p_empty{
+    height: 100%;
+}
+.img_mask{
+    margin-bottom: 15px !important;
+}
+.text_manage{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px !important;
+}
+.text_product{
+    color: #A8B3BC;
+    font-size: 14px;
+    margin-bottom: 21px !important;
+    max-width: 500px;
+    text-align: center;
+}
+.leftSide_Add{
+    flex: 1;
+    text-align: center;
+    font-size: 18px ;
+    font-weight: 500;
+}
+.Middle_Add{
+    width: 36%;
+    margin-top: 40px !important;
+}
+.rightSide_Add{
+    flex: 1;
+}
+.wrapper_add{
+    margin-top: 20px !important;
+}
+.wrapper_main{
+    border: 1px solid #EEF0F3;
+    border-radius: 8px;
+    padding: 22px 22px 15px 22px ;
+    width: 100%;
+    margin-top: 32px !important;
+}
+.title_main{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #83909D;
+}
+.discardBtn{
+    background-color: #F7F8FA !important;
+    border-radius: 6px !important;
+    margin-right: 12px !important;
+    padding: 6px 18px !important;
+}
+.addContact{
+    border-radius: 7px !important;
+}
+.p_buttons{
+    margin-left: 60px !important;
+    position: sticky;
+    top: 80px;
+}
+.addNum{
+    position: relative;
+    right: 5px;
+    margin-top: 6px !important;
+}
+.text1{
+    color: #83909D;
+    font-size: 12px;
+    margin: 10px 0 !important;
+}
+.imageInsideForm {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    cursor: pointer;
+  }
+.bgBtn{
+    background-color: #F7F8FA;
+    padding: 5px;
+    border-radius: 8px;
+    width: max-content !important;
+    margin-top: 20px !important;
+    margin-bottom: 14px !important;
+}
+.bgBtn1{
+    background-color: #F7F8FA;
+    padding: 5px;
+    border-radius: 8px;
+    width: max-content !important;
+    margin-top: 18px !important;
+    margin-bottom: 14px !important;
+}
+.Twobutton{
+    border-radius: 6px !important;
+    height: 39px !important;
+}
+.Twobutton1{
+    border-radius: 6px !important;
+    height: 39px !important;
+    padding: 8px 20px !important;
+}
+.btnTeam{
+    margin-left: 10px !important;
+}
+.mobileNav{
+    position: fixed;
+    top: 0;
+    padding:14px 15px ;
+    background-color: white;
+    z-index: 1000;
+    border-bottom: 1px solid #EEF0F3;
+}
+.textAdd{
+    font-weight: 500;
+}
+.iconBtn{
+    margin-right: 10px !important;
+}
+.addBtn{
+    border-radius: 7px !important;
+}
+.TwoInput {
+    width: 47.5%;
+}
+.nameContact{
+    font-size: 18px;
+    font-weight: 500;
+}
+.arrowLeft{
+    margin-right: 10px !important;
+    position: relative;
+    bottom: 1px;
+}
+.wrapper_saved{
+    margin-top: 20px !important;
+    padding: 0 160px;
+}
+.LeftSide_saved{
+    width: 49%;
+    padding-right: 30px !important;
+    flex: 1;
+}
+.RightSide_saved{
+    width: 352px;
+}
+.overViewItem{
+    font-size: 14px;
+    padding: 15px 0;
+    border-bottom: 1px solid #EEF0F3;
+}
+.badgeGray{
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: #EEF0F3;
+    border-radius: 50px;
+    margin-right: 10px ;
+}
+.overView{
+    font-size: 16px;
+    font-weight: 500;
+}
+.title_ode{
+    background-color: #F7F8FA;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 17px 10px 25px;
+    outline: 1px solid #F7F8FA;
+}
+.title_ode_email{
+    background-color: #F7F8FA;
+    padding: 10px 17px 10px 25px;
+}
+.title_address{
+    background-color: #F7F8FA;
+    padding-left: 25px;
+    padding-right: 16px;
+    margin-top: 20px !important;
+    height: 57px;
+}
+.ode_items{
+    padding: 10px 20px ;
+   
+}
+.ode{
+    outline: 1px solid #EEF0F3;
+    border-radius: 8px;
+    clear: right;
+    margin-top: 30px !important;
+}
+.line{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+}
+.btnAdd {
+    border-radius: 7px !important;
+    font-size: 14px !important;
+}
+.P_search_Filter{
+    margin-top: 20px !important;
+    margin-bottom: 5px !important;
+}
+.tiny_search {
+    background-color: #F7F8FA;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    border: none;
+    height: 32px;
+    width: 100%;
+}
+.P_tiny_search {
+    position: relative;
+    max-width: 190px;
+    flex:1;
+}
+.searchImg {
+    position: absolute !important;
+    top: 6px !important;
+    left: 18px !important;
+}
+.Icons{
+    float: right;
+    margin-bottom: 25px !important;
+}
+.p_check{
+    padding: 21px  !important;
+    display: inline-block !important;
+}
+.searchInput{
+    border: none;
+    width: 100%;
+    padding: 15px 25px;
+    border-bottom: 1px solid #EEF0F3;
+}
+.searchInput:focus{
+    outline: none;
+}
+.textNote{
+    font-weight: 500;
+    margin-top: 35px !important;
+}
+.ordersText{
+    font-size: 16px;
+    font-weight: 500;
+}
+.noOrderText{
+    font-size: 14px;
+    color: #A8B3BC;
+}
+.p_orders{
+    min-height: 84px;
+    border: 2px solid #EEF0F3;
+    border-radius: 6px;
+    margin-top: 15px !important;
+}
+.p_orders_list{
+    min-height: 84px;
+    border: 2px solid #EEF0F3;
+    border-radius: 6px;
+    margin-top: 15px !important;
+}
+
+.imgTimeLine{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    margin-top: 18px;
+}
+.P_contactCreated{
+    overflow: hidden;
+    margin-top: 30px !important;
+}
+.p_filter{
+    margin-top: 16px !important;
+    margin-bottom: 10px !important;
+}
+
+
+.timeLineText{
+    font-weight: 500 ;
+    font-size: 16px;
+}
+
+.img_table{
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
+.order_item{
+    list-style: none;
+    display: block;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.artworkName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.artistName{
+    font-size: 12px;
+    color: #83909D;
+}
+.p_art_artist{
+    margin-left: 12px;
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+}
+.webSite{
+    margin-right: 70px;
+    display: inline-block;
+}
+.data{
+    margin-right: 60px;
+    display: inline-block;
+}
+.price{
+    min-width: 120px;
+    display: inline-block;
+}
+.iconPdf{
+    min-width: 50px;
+    display: inline-block;
+}
+.scrollabel{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.p_imgTable{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.content{
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+.box{
+    display: flex;
+    min-height: min-content; /* needs vendor prefixes */
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.p_orders_items{
+    overflow: auto;
+    margin-left: 15px !important;
+    margin-right: 7px !important;
+}
+/* width */
+.p_orders_items::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  /* Track */
+  .p_orders_items::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+
+  }
+   
+  /* Handle */
+  .p_orders_items::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 8px;
+
+  }
+  
+  /* Handle on hover */
+  .p_orders_items::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .Orders{
+      position: relative;
+      margin-top: 15px !important;
+  }
+  .removeIcon{
+      margin-left: 20px !important;
+      margin-right: 3px !important;
+  }
+  .p_twoIcon{
+      align-self: flex-end;
+  }
+  .tableArtists{
+    width: 100%;
+}
+.header_table{
+    text-align: left;
+    height: 65px;
+}
+.header_checkbox{
+    width: 35px;
+}
+.headerArtist{
+    font-size: 12px;
+    color: #A8B3BC;
+    font-weight: 400;
+    border-bottom: 2px solid #F5F7FA;
+    width: 85px;
+    padding-left: 10px;
+}
+.headerName{
+    width: 219px;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerName_1{
+    width: 300px;
+    border-bottom: 2px solid #F5F7FA;
+}
+
+.headerWorks{
+    font-size: 12px;
+    color: #A8B3BC;
+    font-weight: 400;
+    border-bottom: 2px solid #F5F7FA;
+    width: 12%;
+}
+.echoCol{
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 9px;
+    left: 28px;
+    border-radius: 6px;
+    background-color: #F7F8FA;
+}
+.headerPhone{
+    font-size: 12px;
+    color: #A8B3BC;
+    font-weight: 400;
+    border-bottom: 2px solid #F5F7FA;
+    width: 250px;
+}
+.headerEmail{
+    font-size: 12px;
+    color: #A8B3BC;
+    font-weight: 400;
+    border-bottom: 2px solid #F5F7FA;
+    width: 350px;
+}
+.headerIconTrash{
+    width: 5%;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerIconTrash_1{
+    width: 4%;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerUnbookMark{
+    width: 5%;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerDuplicate{
+    width: 10%;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerButton{
+    width: 300px;
+    border-bottom: 2px solid #F5F7FA;
+}
+.headerButton_1{
+    width: 200px;
+    border-bottom: 2px solid #F5F7FA;
+}
+.tableData{
+    height: 95px;
+    position: relative;
+}
+.artist_checkBox{
+    border-bottom: 2px solid #F5F7FA;
+}
+.artist_Pic{
+    border-bottom: 2px solid #F5F7FA;
+}
+.nameArtist{
+    font-size: 14px;
+    font-weight: 500;
+    color: #242328;
+    border-bottom: 2px solid #F5F7FA;
+}
+.infoArtist{
+    font-size: 14px;
+    color: #242328;
+    border-bottom: 2px solid #F5F7FA;
+}
+.PhoneArtist{
+    font-size: 14px;
+    color: #242328;
+    border-bottom: 2px solid #F5F7FA;
+}
+.emailArtist{
+    font-size: 14px;
+    color: #242328;
+    border-bottom: 2px solid #F5F7FA;
+}
+.artist_IconTrash{
+    border-bottom: 2px solid #F5F7FA;
+}
+.artist_unbookMark{
+    border-bottom: 2px solid #F5F7FA;
+}
+.artist_borderBot1{
+    border-bottom: 2px solid #F5F7FA;
+    text-align: end;
+}
+/* .artist_borderBot1_1{
+    border-bottom: 2px solid #F5F7FA;
+    text-align: end;
+    width: 185px ;
+} */
+.lineTable{
+    width: 100%;
+    height: 1.5px;
+    display: inline-block;
+    background-color: #F5F7FA;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+}
+.savedContact {
+    font-size: 18px;
+    font-weight: 500;
+}
+.P_savedContact{
+    margin-top: 10px !important;
+}
+.tiny_search:focus {
+    outline: 2px solid #3772FF;
+}
+.IconInHover:hover{
+    filter: brightness(0.01);
+}
+
+
+
+@media screen and (max-width:960px){
+    .wrapper_saved{
+        padding: 0 24px;
+    }
+    .p_table{
+        margin-bottom: 50px !important;
+    }
+    .btnAdd {
+        font-size: 12px !important;
+    }
+    .savedContact {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .tiny_search{
+        height: 40px;
+    }
+    .tiny_search::placeholder{
+        width: 50px;
+    }
+    .Wrapper{
+        margin: 20px 15px !important;
+        flex:1;
+        min-height: 85vh;
+    }
+    .artist_unbookMark{
+        border-bottom: 2px solid #F5F7FA;
+        position: absolute;
+        top: 16px;
+        right: -19px;
+        border: none;
+    }
+    .artist_IconTrash{
+        border-bottom: 2px solid #F5F7FA;
+        position: absolute;
+        right: 20px;
+        top: 16px;
+        border: none;
+    }
+    .emailArtist{
+        font-size: 14px;
+        color: #242328;
+        left: 30px;
+        top: 100px;
+        position: absolute;
+        border: none;
+        font-size: 12px;
+    }
+    .PhoneArtist{
+        font-size: 14px;
+        color: #242328;
+        border: none;
+        position: absolute;
+        left: 27px;
+        top: 73px;
+        font-size: 12px;
+    }
+    .titleText{
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        top: 6px;
+    }
+    .nameArtist{
+        font-size: 14px;
+        font-weight: 500;
+        color: #242328;
+        border-bottom: 2px solid #F5F7FA;
+        position:absolute;
+        left: 93px;
+        top: 27px;
+        border: none;
+    }
+    .artist_Pic{
+        position: absolute;
+        top: 12px;
+        left: 32px;
+        border: none;
+    }
+    .artist_checkBox{
+        position: absolute;
+        top: 23px;
+        border: none;
+    }
+    .tableData{
+        height: 170px;
+        position: relative;
+    }
+    .headerPhone{
+        font-size: 12px;
+        color: #A8B3BC;
+        font-weight: 400;
+        width: 20px;
+        border: none;
+    }
+    .headerName{
+        width: 10px;
+    }
+    .headerName_1{
+        width: 10px;
+    }
+    .headerArtist{
+        font-size: 12px;
+        color: #A8B3BC;
+        font-weight: 400;
+        border-bottom: 2px solid #F5F7FA;
+        width: 64px;
+        position: relative;
+        left: 10px;
+    }
+    .header_checkbox{
+        width: 20px;
+    }
+    .P_tiny_search {
+        width: 40%;
+        position: relative;
+    }
+    .textArtwork{
+        font-size: 12px;
+        color: #A8B3BC;
+        padding: 15px 0 0 16px;
+    }
+    .p_filter{
+        margin-top: 0px !important;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: inline-block !important;
+        width: fit-content !important;
+    }
+    .p_orders_items::-webkit-scrollbar-thumb {
+        background: #242328; 
+        border-radius: 8px;
+    
+      }
+    .p_orders_items::-webkit-scrollbar {
+        height: 4px;
+      }
+     .p_orders_items{
+         margin-top: 25px !important;
+     }
+    .p_imgTable{
+        display: inline-block;
+        position: relative;
+        top: 2px;
+        white-space: nowrap;
+        margin-right: 70px;
+    }
+    .searchImg {
+        position: absolute !important;
+        top: 10px !important;
+        left: 18px !important;
+    }
+    .Middle_Add{
+        width: 90%;
+        margin:  40px auto!important;
+    }
+    .TwoInput {
+        width: 100%;
+      }
+      .LeftSide_saved{
+        width: 90%;
+        padding-right: 0px !important;
+        margin: auto !important;
+    }
+    .nameContact{
+        font-size: 16px;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 17px 14px;
+        border-bottom: 1px solid #EEF0F3;
+        z-index: 1000;
+    }
+    .WrapperNOT{
+        margin-top: 65px !important;
+    }
+    .bgBtn1{
+        margin-top: 12px !important;
+    }
+    .RightSide_saved{
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    .p_orders_list{
+        min-height: 84px;
+        border: 2px solid #EEF0F3;
+        border-radius: 6px;
+        margin-top: 15px !important;
+        padding-bottom: 15px;
+    }
+   
+    .p_contact{
+        margin-top: 60px !important;
+    }
+    
+}

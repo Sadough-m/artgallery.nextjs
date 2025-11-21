@@ -1,0 +1,18 @@
+.Title {
+    font-size: 3rem;
+}
+
+.Description {
+    font-size: 1rem;
+    color: #808080;
+    text-align: center;
+}
+
+.Undo {
+    text-decoration: underline !important;
+}
+
+.Link {
+    color: black;
+    text-decoration: underline;
+}

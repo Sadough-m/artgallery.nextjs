@@ -1,0 +1,271 @@
+.middle_wrapper{
+    width: 29%;
+    margin-top: 60px !important;
+}
+.side_wrapper{
+    flex: 1;
+}
+
+.LeftSide_item{
+    margin-right: 20px !important;
+    width: 300px;
+    float: right;
+}
+.two_button{
+    margin-left: 60px !important;
+    position: sticky;
+    top: 80px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.discard{
+    background: #F7F8FA !important;
+    border-radius: 6px !important;
+    margin-right: 12px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.createButton{
+    border-radius: 6px !important;
+}
+.statuseFont{
+    font-size: 14px;
+    font-weight: 500;
+}
+.desk_statuse{
+    font-size: 12px;
+    color: #83909D;
+    margin-top: 5px !important;
+}
+.UserMenu{
+    min-width: 138px;
+    box-shadow: 0px 12px 24px rgba(36, 35, 40, 0.04);
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #EEF0F3;
+    border-radius: 8px;
+    position: absolute;
+    top: 24px;
+    right: -3px;
+    padding-bottom: 20px;
+    z-index: 200;
+}
+.item_userMenu{
+    padding: 12px 12px 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #83909D;
+    cursor: pointer;
+}
+.item_userMenu:hover{
+    color: #242328;
+    transition: all 0.1s ease;
+}
+.item_userMenu:hover .fitSvg{
+    filter: brightness(0.01);
+}
+.fitSvg{
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+    transition: all 0.1s ease;
+}
+.p_file{
+    margin-top: 31px !important;
+}
+.offlineText{
+    color: #83909D;
+    font-size: 12px;
+    margin-top: -2px ;
+}
+.addApp{
+    border-radius: 8px;
+    border: 1.5px solid #EEF0F3;
+    background: #FFFFFF;
+    min-height: 64px;
+    margin-top: 13px !important;
+}
+.notApp{
+    font-size: 14px;
+    color: #A8B3BC;
+}
+.profileCol{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+.p_col{
+    border-left: 2px solid #EEF0F3;
+    border-radius: 6px !important;
+    padding-left: 9px;
+    margin-bottom: 17px !important;
+}
+.nameCol{
+    font-size: 14px;
+}
+
+.appItem{
+    background: #F7F8FA;
+    outline: 2px solid #F7F8FA;
+    border-radius: 8px;
+    width: 48.3%;
+    padding: 5px 10px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 14px !important;
+}
+.appItem:hover{
+    background: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    outline: 2px solid #EEF0F3;
+}
+.p_logoApp{
+    margin-right: 13px !important;   
+}
+.iconClose{
+    position: absolute !important;
+    top: 9px;
+    right: 8px;
+    opacity: 0;
+    transition: all 0.2s ease;
+    display: none;
+}
+.appItem:hover .iconClose{
+    opacity: 1;
+    display: block;
+
+}
+.logoApp{
+    width: 32px;
+    border-radius: 50px;
+    height: 32px;
+    position: relative;
+    top: 3px;
+}
+.optionCol{
+    width: 120px;
+    border-radius: 12px;
+    border: 2px solid #EEF0F3;
+    padding: 15px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 0px !important;
+}
+
+.optionCol_select{
+    width: 120px;
+    border-radius: 12px;
+    border: 2px solid #3772FF;
+    padding: 15px;
+    background-color: #F1F9FE;
+    cursor: pointer;
+    margin-top: 0px !important;
+}
+.titleCollab_op{
+    font-size: 12px;
+    font-weight: 500;
+}
+.imgBlack{
+    filter: brightness(0.01);
+}
+.loadingUser{
+    padding: 5px;
+    border: 2px solid #EEF0F3;
+    background: #FFFFFF;
+    border-radius: 50px;
+    margin-right: 10px ;
+    position: relative;
+    top: 3px;
+    animation: rotation 3s infinite linear;
+}
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media screen and (max-width:960px){
+    .optionCol_select{
+        width: 131.5px;
+    }
+    .optionCol{
+        width: 131.5px;
+    }
+    .p_switch{
+        position: absolute;
+        right: 0;
+        top: 3px;
+    }
+    .p_col{
+        border-left: 2px solid #EEF0F3;
+        border-radius: 6px !important;
+        padding-left: 9px;
+        margin-bottom: 9px !important;
+    }
+    .UserMenu{
+        min-width: 138px;
+        box-shadow: 0px 12px 24px rgba(36, 35, 40, 0.04);
+        background: #FFFFFF;
+        border-radius: 6px;
+        border: 1px solid #EEF0F3;
+        border-radius: 8px;
+        position: absolute;
+        top: 24px;
+        left: -100px;
+        padding-bottom: 20px;
+        z-index: 200;
+    }
+    .headerMobile{
+        width: 100%;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0px;
+        z-index: 500;
+        background-color: white;
+        border-bottom: 1px solid #EEF0F3;
+    }
+    .arrowLeft{
+        position: relative;
+        top: 5px;
+        margin-right: 10px;
+    }
+    .middle_wrapper{
+        width: 90%;
+        margin-top: 60px !important;
+    }
+    .appItem{
+        width: 100%;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 14px !important;
+        background: white;
+        border-radius: 8px;
+        padding: 5px 10px;
+        outline: 2px solid #EEF0F3;
+    }
+    .iconClose{
+        position: absolute !important;
+        top: 9px;
+        right: 8px;
+        opacity: 1;
+        transition: all 0.2s ease;
+        display: block;
+    }
+    .desk_statuse{
+        width: 70%;
+    }
+    .buttonSave{
+        border-radius: 7px !important;
+    }
+}

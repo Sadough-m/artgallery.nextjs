@@ -1,0 +1,2751 @@
+.Wrapper {
+  margin: 20px 25px !important;
+  flex: 1;
+  min-height: 85vh;
+}
+.titleText {
+  font-size: 18px;
+  font-weight: 500;
+}
+.badgeGreen {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  bottom: 2px;
+  border-radius: 50px;
+  background-color: #a6e9de;
+  margin-right: 10px;
+}
+.btnAdd {
+  border-radius: 7px !important;
+  font-size: 14px !important;
+}
+
+.MainLoading {
+  text-align: center;
+  align-items: center;
+  width: 100% !important;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.P_search_Filter {
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+.P_tiny_search {
+  position: relative;
+  width: 210px;
+}
+.tiny_search {
+  background-color: #f7f8fa;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  border: none;
+  height: 32px;
+  width: 100%;
+}
+.tiny_search:focus {
+  outline: 2px solid #3772ff;
+}
+.tiny_search::placeholder {
+  opacity: 1;
+}
+.searchImg {
+  position: absolute !important;
+  top: 6px !important;
+  left: 18px !important;
+}
+.p_empty {
+  height: 98%;
+}
+.img_mask {
+  margin-bottom: 15px !important;
+}
+.text_manage {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px !important;
+  max-width: 267px;
+  text-align: center;
+}
+.text_manage_noWidth {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+.text_product {
+  color: #a8b3bc;
+  font-size: 14px;
+  margin-bottom: 21px !important;
+  max-width: 500px;
+  text-align: center;
+}
+.addButton {
+  border-radius: 8px !important;
+  padding: 8px 23px !important;
+}
+.Main {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+  padding: 20px 20px;
+  margin-top: 30px !important;
+}
+.MainTitle {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+}
+.MainTitle2 {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+}
+.NewMain {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+  padding: 24px;
+  margin-top: 30px !important;
+  position: relative;
+}
+.Main_1 {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+  padding: 20px 20px 12px 20px;
+  margin-top: 30px !important;
+}
+.TitleMain {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+  margin-bottom: 18px !important;
+}
+
+.TitleMain_1 {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+  margin-bottom: 8px !important;
+}
+.P_Btn {
+  width: 48.5% !important;
+}
+.P_Btn_1 {
+  width: 48.5% !important;
+}
+.BtnPending {
+  width: 100%;
+  border-radius: 6px !important;
+  height: 48px !important;
+}
+.BtnPaid {
+  width: 100%;
+  border-radius: 6px !important;
+  height: 48px !important;
+  border: 2px solid #eef0f3 !important;
+  background-color: #f7f8fa !important;
+}
+.discardBtn {
+  background-color: #f7f8fa !important;
+  border-radius: 6px !important;
+  margin-right: 12px !important;
+  padding: 6px 18px !important;
+  font-size: 12px !important;
+}
+.P_TwoBtn{
+  margin-bottom: 10px !important;
+  margin-top: 2px !important;
+}
+.TextIconBtn{
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block !important;
+  color: #83909D;
+  margin-right: 14px !important;
+  position: relative;
+  top: 2px;
+}
+.SaveChangesBtn{
+  border-radius: 6px !important;
+  margin-right: 12px !important;
+  padding: 6px 18px !important;
+  font-size: 12px !important;
+}
+.DiscardBtn2{
+  font-size: 12px !important;
+  background-color: #f7f8fa !important;
+  border-radius: 6px !important;
+  margin-right: 12px !important;
+  padding: 6px 18px !important;
+}
+.addContact {
+  border-radius: 7px !important;
+  font-size: 12px !important;
+}
+.mobileNav {
+  position: fixed;
+  top: 0;
+  padding: 14px 15px;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #eef0f3;
+}
+.textAdd {
+  font-weight: 500;
+}
+.iconBtn {
+  margin-right: 10px !important;
+}
+.addBtn {
+  border-radius: 7px !important;
+}
+.wrapper_add {
+  margin-top: 20px !important;
+}
+.leftSide_Add {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Middle_Add {
+  width: 36%;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+}
+.rightSide_Add {
+  flex: 1;
+}
+.p_buttons {
+  margin-left: 16px !important;
+  position: sticky;
+  top: 80px;
+}
+
+.addContact {
+  border-radius: 7px !important;
+}
+.BtnCustom {
+  width: 100%;
+  border-radius: 6px !important;
+  height: 40px !important;
+  background-color: #f7f8fa !important;
+  font-size: 12px !important;
+}
+.TextNoArt {
+  font-size: 14px;
+  color: #a8b3bc;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #eef0f3;
+  width: 100%;
+}
+.PaidText {
+  font-size: 14px;
+  font-weight: 500;
+}
+.P_Switch {
+  padding: 30px 0;
+}
+.P_Switch_1 {
+  padding: 23px 0 20px 0;
+  border-top: 1px solid #eef0f3;
+}
+.P_Switch_2 {
+  padding: 23px 0 20px 0;
+  border-top: 1px solid #eef0f3;
+  margin-top: 20px !important;
+}
+
+.ChoosePackage {
+  font-size: 14px;
+  color: #a8b3bc;
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+
+.Discount {
+  font-size: 14px;
+  color: #83909d;
+}
+.P_ArtworkSec {
+  padding: 13px 0;
+  border-top: 1px solid #eef0f3;
+}
+.P_ArtworkSec_3 {
+  padding: 4px 0;
+}
+.P_ArtworkSec_4 {
+  padding: 4px 0 15px 0;
+}
+.P_ArtworkSec_1 {
+  padding: 20px 0;
+  border-top: 1px solid #eef0f3;
+}
+.P_ArtworkSec_2 {
+  padding: 20px 0 10px 0;
+  border-top: 1px solid #eef0f3;
+}
+.Count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  min-width: 15px;
+  width: 45px;
+}
+.price_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+}
+.fitBtn {
+  position: relative;
+  left: 8px;
+}
+.fitBtn_12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  right: 8px;
+  color: #a8b3bc !important;
+}
+.fitBtn_1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  right: 8px;
+}
+.fitBtn_1:hover {
+  background-color: transparent !important;
+}
+.TotalPaid {
+  font-size: 14px;
+  font-weight: 500;
+}
+.bgBtn1 {
+  background-color: #f7f8fa;
+  padding: 5px;
+  border-radius: 8px;
+  width: max-content !important;
+  margin-top: 18px !important;
+  margin-bottom: 14px !important;
+}
+.Twobutton1 {
+  border-radius: 6px !important;
+  height: 39px !important;
+  padding: 8px 20px !important;
+}
+.btnTeam {
+  margin-left: 10px !important;
+}
+.Twobutton {
+  border-radius: 6px !important;
+  height: 39px !important;
+}
+.NameArtistFound {
+  font-size: 14px;
+}
+.EmailArtistFound {
+  font-size: 12px;
+  color: #83909d;
+}
+.Found {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  background-color: white;
+  padding: 10px 15px 15px 15px;
+  z-index: 1;
+  width: 100%;
+  border: 1px solid #eef0f3;
+  box-shadow: 0px 16px 48px rgb(36 35 40 / 4%);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.NotFound {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  border: 1px solid #eef0f3;
+  box-shadow: 0px 16px 48px rgb(36 35 40 / 4%);
+  border-radius: 6px;
+  min-height: 68px;
+  font-size: 14px;
+  color: #a8b3bc;
+}
+.ImgFound {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  margin-right: 12px;
+}
+.LoadingSvg {
+  position: absolute;
+  right: 10px;
+  top: 17.4px;
+  animation-name: rotation;
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.AddArtist {
+  font-size: 14px;
+  background: #f7f8fa;
+  border-radius: 6px;
+  padding: 3px 12px 7px 12px;
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  transition: all 2s linear;
+}
+.darkSvg {
+  filter: brightness(0.01);
+}
+.AddedImg {
+  position: relative;
+  top: 4px;
+  margin-right: 8px;
+  border-radius: 100px;
+}
+.ItemTitle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #83909d;
+}
+.p_orders_items {
+  overflow: auto;
+  margin-top: 22px !important;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+
+.p_orders_items::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Track */
+.p_orders_items::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.p_orders_items::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.p_orders_items::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.content {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+.content_shipping {
+  font-size: 14px;
+  padding-bottom: 30px;
+  padding-top: 12px;
+}
+.box {
+  display: flex;
+  min-height: min-content; /* needs vendor prefixes */
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.box_title {
+  display: flex;
+  min-height: min-content; /* needs vendor prefixes */
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-bottom: 18px;
+}
+.p_imgTable {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  white-space: nowrap;
+  margin-right: 40px;
+  min-width: 160px;
+}
+.p_art_artist {
+  margin-left: 12px;
+  display: inline-block;
+  position: relative;
+  bottom: 16px;
+}
+.artworkName {
+  font-size: 14px;
+  font-weight: 500;
+}
+.artistName {
+  font-size: 12px;
+  color: #83909d;
+}
+.DateText {
+  font-size: 12px;
+  color: #83909d;
+  margin-top: 3px;
+}
+.webSite {
+  margin-right: 30px;
+  display: inline-block;
+  /* width: 132px; */
+  white-space: nowrap;
+  min-width: 103px;
+}
+.data {
+  margin-right: 60px;
+  display: inline-block;
+  min-width: 63px;
+}
+.price {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+}
+.iconPdf {
+  min-width: 50px;
+  display: inline-block;
+}
+.ImgArtwork {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+  bottom: 3px;
+}
+.ArtworkTitle {
+  font-size: 12px;
+  color: #a8b3bc;
+}
+.ArtworkTitle1 {
+  font-size: 12px;
+  color: #a8b3bc;
+}
+.LimitedTitle {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 103px;
+  margin-right: 30px !important;
+}
+.PriceTitle {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 63px;
+  margin-right: 60px !important;
+}
+.PTable {
+  width: 100%;
+}
+
+.TitleFont {
+  color: #a8b3bc !important;
+  font-size: 12px !important;
+}
+.TitleFont1 {
+  color: #a8b3bc !important;
+  font-size: 12px !important;
+  position: relative;
+  left: 4px;
+}
+
+.Scroll {
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+/* width */
+.Scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* Track */
+.Scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.Scroll::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.Scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.TwoForm30 {
+  width: 30%;
+}
+.tableArtists_12 {
+  width: 600px;
+  overflow: hidden;
+}
+.tableArtists {
+  width: 100%;
+}
+.TableArtwork {
+  width: 100%;
+}
+
+.header_table {
+  text-align: left;
+  height: 45px;
+  position: relative;
+}
+.header_table_1 {
+  margin-bottom: 10px !important;
+}
+.artist_Pic {
+  padding-left: 10px;
+  width: 110px;
+}
+.artist_Pic_5 {
+  padding-left: 10px;
+  width: 110px;
+}
+.ArtworkImg {
+  width: 73px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.p_table {
+  margin-top: 13px !important;
+}
+.header_checkbox {
+  width: 35px;
+}
+.headerArtist {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 85px;
+  padding-left: 10px;
+}
+.headerArtwork {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 73px;
+}
+.headerArtwork_10 {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 170px;
+}
+.headerArtist_Br {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 85px;
+  padding-left: 10px;
+  border-bottom: 2px solid #f5f7fa;
+}
+.header_checkbox_Br {
+  width: 35px;
+  border-bottom: 2px solid #f5f7fa;
+}
+.headerName {
+  width: 219px;
+}
+.headerName_1 {
+  flex: 1;
+}
+.headerName_Br {
+  width: 219px;
+  border-bottom: 2px solid #f5f7fa;
+}
+.headerPhone {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 250px;
+}
+.headerLimitted {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.headerPhone_Br {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 250px;
+  border-bottom: 2px solid #f5f7fa;
+}
+.headerCount {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 40px;
+}
+.headerCount_Br {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 40px;
+  border-bottom: 2px solid #f5f7fa;
+}
+
+.headerSize {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 120px;
+}
+.headerWeight {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 65px;
+}
+.WeightSec {
+  font-size: 14px;
+  font-weight: 400;
+  width: 65px;
+}
+.headerCost_Br {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 200px;
+  border-bottom: 2px solid #f5f7fa;
+}
+.headerCost {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 170px;
+}
+.headerIcon {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 40px;
+}
+.P_NoMassage {
+  padding: 20px 0 !important;
+}
+.NoConversation {
+  font-size: 14px;
+  color: #a8b3bc;
+}
+.FitIcon {
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.tableData {
+  height: 78px;
+  position: relative;
+}
+.tableData_old {
+  height: 78px;
+  position: relative;
+}
+.tableData_Draft {
+  height: 78px;
+  position: relative;
+}
+.tableData_new {
+  height: 78px;
+  position: relative;
+  margin-top: 15px !important;
+}
+.nameArtist {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  position: relative;
+  right: 8px;
+}
+.nameArtist_5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  position: relative;
+  right: 8px;
+}
+
+.nameArtist_2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  position: relative;
+  right: 15px;
+}
+.nameArtist_Br {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  flex: 1;
+}
+.nameArtist_Br_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  flex: 1;
+}
+.PhoneArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.PhoneArtist_5 {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.PhoneArtist_Br {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.LimittedSec {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 150px;
+}
+.lineTable {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 1px;
+  background-color: #eef0f3;
+}
+.lineTable_top {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 1px;
+  background-color: #eef0f3;
+}
+.Tracking {
+  background: #f7f8fa;
+  border-radius: 6px;
+  padding: 15px 15px 8px 15px;
+  margin-top: 28px !important;
+}
+.emailArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.emailArtist_Br {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.SizeSec {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 120px;
+}
+.Rm_btn {
+  display: none !important;
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: relative !important;
+  bottom: 2px;
+}
+.C_Count {
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+.box:hover .C_Count {
+  opacity: 0;
+  display: none;
+}
+.box:hover .Rm_btn {
+  opacity: 1;
+  display: inline-block !important;
+}
+
+.emailArtist_1 {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  position: relative;
+  bottom: 2px;
+  white-space: nowrap;
+}
+.artist_checkBox {
+  position: relative;
+  top: 3px;
+}
+.artist_checkBox_Br {
+  padding-top: 7px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 35px;
+}
+.imgArtworkModal {
+  position: relative !important;
+  top: 3px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.wrapper_saved {
+  margin-top: 20px !important;
+  padding: 0 160px;
+}
+.LeftSide_saved {
+  flex: 1;
+  padding-right: 30px !important;
+}
+.nameContact {
+  font-size: 18px;
+  font-weight: 500;
+}
+.arrowLeft {
+  margin-right: 10px !important;
+  position: relative;
+  bottom: 1px;
+}
+.RightSide_saved {
+  width: 352px;
+}
+.ButtonMark {
+  border: 2px solid #eef0f3 !important;
+  border-radius: 6px !important;
+  padding: 5px 24px !important;
+  margin-top: 17px !important;
+}
+.TitlePaymentStatuse {
+  font-weight: 500;
+}
+.PaymentStatuse {
+  margin-top: 35px !important;
+}
+.TitleArtworks {
+  font-weight: 500;
+  margin-bottom: 12px !important;
+}
+.TitleArtworks_2 {
+  font-weight: 500;
+}
+.P_TitleArtworks_2 {
+  margin-bottom: 15px !important;
+}
+.ArtworksContainer {
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  padding: 14px;
+}
+.ArtworksContainer_2 {
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  padding: 0 5px;
+}
+.SearchSvg {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.SearchInput {
+  background: #f7f8fa;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  padding-left: 35px;
+  height: 40px;
+}
+.SearchInput:focus {
+  outline: 2px solid #3772ff;
+}
+.P_Search {
+  flex: 1;
+  position: relative;
+}
+.BrowsItem {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  padding: 9.3px 26px !important;
+  margin-left: 12px !important;
+  font-size: 12px !important;
+}
+
+.CreateShipping {
+  border-radius: 6px !important;
+  margin-left: 12px !important;
+  font-size: 12px !important;
+  padding: 6px 20px !important;
+}
+
+.ManualFillment {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  padding: 6px 20px !important;
+  margin-left: 12px !important;
+  font-size: 12px !important;
+}
+
+.Artworks {
+  margin-top: 30px !important;
+}
+.Note {
+  margin-top: 30px !important;
+}
+.TitleNote {
+  font-weight: 500;
+}
+.Icons {
+  float: right;
+  margin-bottom: 35px !important;
+  margin-top: -7px !important;
+}
+.Icons_1 {
+  float: right;
+  margin-bottom: 23px !important;
+  margin-top: -7px !important;
+}
+.Profile {
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  clear: right;
+  margin-top: 30px !important;
+}
+.TitleProfile {
+  background-color: #f7f8fa;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 17px 10px 25px;
+  outline: 1px solid #f7f8fa;
+}
+.overView {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ProfileImg {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.ProfileName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px !important;
+}
+.Info {
+  padding: 15px 0 0 0;
+  border-bottom: 1px solid #eef0f3;
+}
+.ContainerProfile {
+  padding: 26px 25px;
+}
+.ContainerShipping {
+  padding: 8px 25px 26px 25px;
+}
+.InfoTilte {
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+  padding-bottom: 15px;
+}
+.InfoValue {
+  font-size: 14px;
+  color: #242328;
+}
+.P_Info {
+  margin-top: 10px !important;
+  position: relative;
+}
+.P_Info_1 {
+  margin-top: 14px !important;
+  position: relative;
+}
+.RemoveLine {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.Tags {
+  outline: 1px solid #eef0f3;
+  border-radius: 8px;
+  clear: right;
+  margin-top: 30px !important;
+}
+.TitleTags {
+  background-color: #f7f8fa;
+  border-radius: 8px 8px 0 0;
+  padding: 15px 17px 15px 25px;
+  outline: 1px solid #f7f8fa;
+}
+.searchInput_Tags {
+  border: none;
+  width: 100%;
+  padding: 15px 25px;
+  border-bottom: 1px solid #eef0f3;
+}
+.searchInput_Tags:focus {
+  outline: none;
+}
+.P_ItemTags {
+  padding: 21px !important;
+  display: inline-block !important;
+}
+.PaymentPending {
+  margin-top: 33px !important;
+}
+.ButtonPayment {
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  margin-right: 15px !important;
+  padding: 6px 20px !important;
+}
+.ButtonMarkPaid {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 20px !important;
+}
+.TitlePending {
+  font-weight: 500;
+}
+
+.PaymentList {
+  padding: 15px 15px 0 15px;
+  border: 1.5px solid #eef0f3;
+  border-radius: 6px;
+  margin-top: 15px !important;
+}
+.EmptyPaymentList {
+  padding: 20px 0 30px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #83909d;
+}
+.P_TotalPaid {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 0;
+  border-top: 1px solid #eef0f3;
+}
+.P_TotalPaid_deActive {
+  font-size: 14px;
+  font-weight: 400;
+  color: #83909d;
+  padding: 14px 0;
+  border-top: 1px solid #eef0f3;
+}
+
+.LineBug {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  display: inline-block;
+  left: 0;
+}
+.TableTitle_1 {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 35%;
+  position: relative;
+  left: 15px;
+}
+.TableTitle_12 {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 35%;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+.TableTitle_2 {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 30%;
+  position: relative;
+  left: 14px;
+}
+.TableTitle_3 {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 25%;
+  position: relative;
+  left: 14px;
+}
+.TableTitle_4 {
+  font-size: 12px;
+  color: #a8b3bc;
+  width: 10%;
+  position: relative;
+  left: 14px;
+}
+.TableBody_1 {
+  font-size: 14px;
+  font-weight: 500;
+  width: 35%;
+}
+.TableBody_2 {
+  font-size: 14px;
+  font-weight: 400;
+  width: 30%;
+}
+.TableBody_3 {
+  font-size: 14px;
+  font-weight: 400;
+  width: 25%;
+}
+.TableBody_4 {
+  width: 8%;
+}
+.RowTable {
+  background: #f7f8fa;
+  border-radius: 8px;
+  padding: 4px 0px 4px 15px;
+  margin-top: 11px;
+  position: relative;
+}
+.TitleTable {
+  margin-bottom: 15px !important;
+}
+
+.ArtistNameTable {
+  font-size: 12px;
+  color: #83909d;
+  font-weight: 400;
+}
+
+.TimeLineText {
+  font-weight: 500;
+  margin-top: 20px !important;
+  margin-bottom: 17px !important;
+}
+.ImgTimeLine {
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+}
+.InputTimeLine {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 50px;
+}
+.InputTimeLine:focus {
+  outline: none;
+  border: 2px solid #3772ff;
+}
+.P_InputTimeLine {
+  flex: 1;
+  margin-left: 15px !important;
+  margin-right: 8px !important;
+  position: relative;
+}
+.ButtonSend {
+  border-radius: 8px !important;
+  padding: 7px 22px !important;
+}
+.TextContact {
+  font-size: 14px;
+}
+.DateContact {
+  font-size: 12px;
+  color: #83909d;
+}
+.Date {
+  padding: 1px 18px 1px 0;
+  border-right: 1px solid #eef0f3;
+}
+.Time {
+  padding-left: 13px;
+}
+.Elipse {
+  margin-right: 24px;
+  position: relative;
+  top: 5px;
+}
+.ContactDesk {
+  font-size: 12px;
+  color: #83909d;
+  margin-left: 44px !important;
+  margin-top: 8px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 450px;
+  white-space: nowrap;
+}
+.LineContact {
+  display: inline-block;
+  width: 2px;
+  background-color: #eef0f3;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  left: 9px;
+}
+.P_ContactCreated {
+  margin-top: 30px !important;
+  padding-left: 17px;
+  overflow: hidden;
+}
+.ContactCreated {
+  position: relative;
+  margin-bottom: 17px !important;
+}
+.TextNewMessage {
+  font-size: 14px;
+  color: #83909d;
+  margin-bottom: 8px !important;
+}
+.MassagedName {
+  font-size: 14px;
+  font-weight: 500;
+}
+.NewMessage {
+  padding: 25px;
+}
+.P_ImgNewMessage {
+  margin-right: 12px !important;
+}
+.ImgNewMessage {
+  position: relative;
+  top: 5px;
+  border-radius: 4px;
+}
+.CommentType {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #a6e9de;
+  cursor: pointer;
+  padding: 0px 26px 1px 9px;
+  border-radius: 4px;
+  position: relative;
+}
+.CommentType_active {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #a6e9de;
+  cursor: pointer;
+  padding: 0px 26px 1px 9px;
+  border-radius: 4px;
+  position: relative;
+  outline: 2px solid #242328;
+}
+
+.P_CommentType {
+  position: absolute;
+  right: 53px;
+  top: 10px;
+  z-index: 1;
+}
+.ArrowSvg {
+  position: absolute;
+  top: 2.5px;
+  right: 3px;
+}
+.LineEmoji {
+  display: inline-block;
+  width: 1px;
+  height: 22px;
+  background-color: #eef0f3;
+}
+.Emoji {
+  position: absolute;
+  right: 11px;
+  top: 8px;
+  cursor: pointer;
+}
+.ImgEmoji {
+  margin-left: 9px;
+}
+.WrapperComment {
+  position: relative;
+}
+.Options {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #eef0f3;
+  box-shadow: 0px 12px 24px rgba(36, 35, 40, 0.04);
+  border-radius: 8px;
+  z-index: 2;
+  top: 26px;
+  left: 0;
+  width: 106px;
+  padding: 6px 0;
+}
+.Option {
+  font-size: 14px;
+  padding: 8px 12px;
+  color: #83909d;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.Option:hover {
+  color: #242328;
+}
+.CircleGreen {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #a6e9de;
+  border-radius: 50px;
+  position: relative;
+  top: 3.5px;
+  margin-right: 10px;
+}
+.CircleOrange {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fed6cc;
+  border-radius: 50px;
+  position: relative;
+  top: 3.5px;
+  margin-right: 10px;
+}
+.CircleGray {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #eef0f3;
+  border-radius: 50px;
+  position: relative;
+  top: 3.5px;
+  margin-right: 10px;
+}
+
+.LeftSide__Payment {
+  width: 28.5%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px !important;
+}
+.TextCreatePay {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.Middle_Payment {
+  flex: 1;
+  margin-top: 57px !important;
+}
+.RightSide_Payment {
+  width: 29%;
+}
+.RightSide_Payment_manual {
+  width: 29%;
+}
+.RightSide_Payment_Shipping {
+  width: 29%;
+}
+.TrackInfo {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px !important;
+}
+.Wrapper_Right {
+  width: 240px;
+  margin-top: 18px !important;
+  margin-left: 24px !important;
+}
+.DiscardButton {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 22px !important;
+  margin-left: 123px !important;
+  font-weight: 600 !important;
+}
+.DiscardButtonRefund {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 22px !important;
+  font-weight: 600 !important;
+}
+.DiscardButton_1 {
+  background: #f7f8fa !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 22px !important;
+  font-weight: 600 !important;
+}
+.P_BtnRefund {
+  white-space: nowrap !important;
+  position: relative;
+  right: 39px;
+}
+.CreateRefund {
+  background: #3772ff !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 18px !important;
+  font-weight: 600 !important;
+  margin-left: 10px !important;
+  color: white !important;
+}
+.RefundBtn {
+  height: 32px !important;
+  background: #a8b3bc !important;
+  border-radius: 6px !important;
+  color: white !important;
+  width: 100% !important;
+  font-size: 12px !important;
+  margin-top: 24px !important;
+}
+.PayBtn{
+  position: absolute !important;
+  top: 33px;
+  right: 3px;
+}
+.RefundBtnAbs {
+  position: absolute !important;
+  top: 18px;
+  right: 20px;
+}
+.ConfirmBtn {
+  background: #3772ff !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 18px !important;
+  font-weight: 600 !important;
+  margin-left: 10px !important;
+  color: white !important;
+}
+
+.Summary {
+  background: #ffffff;
+  border: 1px solid #eef0f3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 35px !important;
+}
+.TitleSummary {
+  font-size: 16px;
+  font-weight: 500;
+  background: #f7f8fa;
+  border-radius: 8px;
+  padding: 15px 25px;
+  outline: 1px solid #f7f8fa;
+}
+.NoItem {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px !important;
+}
+.WrapperSummary {
+  padding: 4px 24px 24px 24px;
+}
+.PaymentBtn {
+  background: #a8b3bc !important;
+  border-radius: 6px !important;
+  color: white !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+  font-size: 12px !important;
+}
+.BuyLabel {
+  background: #242328 !important;
+  border-radius: 6px !important;
+  color: white !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+  font-size: 12px !important;
+}
+.TxtSelected {
+  color: #a8b3bc;
+  font-weight: 400;
+}
+.TxtShipping {
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+  margin-top: 25px !important;
+}
+.TxtShipping_1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+  margin-top: 0px !important;
+}
+.Address {
+  font-size: 14px;
+  margin-top: 8px !important;
+}
+
+.PaymentType {
+  padding: 10px 0 15px 0 !important;
+  border-top: 1px solid #eef0f3;
+  margin-top: 2px !important;
+}
+.CartNum {
+  display: inline-block !important;
+  margin-left: 15px !important;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-left: 1px solid #eef0f3;
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.CartNum_1 {
+  display: inline-block !important;
+  margin-left: 15px !important;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-left: 1px solid #eef0f3;
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.LogoMethod {
+  position: relative;
+  bottom: 2px;
+}
+.Method {
+  padding: 25px 0 20px 0;
+  border-bottom: 1px solid #eef0f3;
+  position: relative;
+}
+.P_AddMethod {
+  margin: 18px 0 6px 0 !important;
+}
+.ItemSummary {
+  font-size: 12px;
+  color: #83909d;
+  font-weight: 500;
+  border-bottom: 1px solid #eef0f3;
+  padding: 15px 0;
+}
+.ItemSummary_1 {
+  font-size: 12px;
+  color: #83909d;
+  font-weight: 500;
+  padding: 15px 0 5px 0;
+}
+.Total {
+  font-size: 14px;
+}
+.TotalPrice {
+  font-size: 14px;
+  font-weight: 400;
+  color: #242328;
+}
+.Packagetype {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.PackagingName {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px !important;
+}
+.txt10 {
+  color: #83909d;
+  margin-left: 7px;
+  font-weight: 400;
+}
+.star {
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+.TwoForm {
+  width: 48.5%;
+}
+
+/* header Table */
+.H_Check {
+  width: 35px;
+}
+.H_Channel {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.H_Customer {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+}
+.H_Customer_Draft {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  min-width: 280px;
+  flex: 1;
+}
+.H_Order {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+}
+.H_Date {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.H_Date_Draft {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 200px;
+}
+.H_Statuse {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+}
+.H_Statuse_Draft {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 220px;
+}
+.H_Total {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+}
+.H_Total_Draft {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.H_Duplicate_Draft {
+  width: 150px;
+}
+.H_Delete {
+  width: 50px;
+}
+.H_Pdf {
+}
+/* header Table */
+
+/* Body Table */
+.B_Check {
+  position: relative;
+  top: 2px;
+}
+.B_Channel {
+  font-size: 14px;
+  font-weight: 500;
+}
+.B_Customer {
+  font-size: 14px;
+}
+.B_Customer_Draft {
+  font-size: 14px;
+}
+.B_Order {
+  font-size: 14px;
+}
+.B_Date {
+  font-size: 14px;
+  width: 50px;
+}
+.B_Date_Draft {
+  font-size: 14px;
+  width: 50px;
+}
+.B_Statuse {
+  font-size: 14px;
+}
+.B_Statuse_Draft {
+  font-size: 14px;
+}
+.View {
+  white-space: nowrap;
+}
+.B_View {
+  width: 130px;
+}
+.B_View_Draft {
+  width: 130px;
+}
+.B_Total {
+  font-size: 14px;
+}
+.B_Total_Draft {
+  font-size: 14px;
+}
+.TypeArt {
+  background: #eef0f3;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+.Create {
+  border-radius: 7px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 12px !important;
+}
+.CloseAdd {
+  position: absolute !important;
+  right: 5px;
+  top: 4px;
+  opacity: 0;
+  transition: all 2s linear;
+}
+.AddArtist:hover .CloseAdd {
+  opacity: 1;
+}
+.tableArtists_MobileScroll {
+  overflow: hidden;
+}
+
+.P_tableArtists_MobileScroll::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 2px;
+  width: 4px;
+}
+
+/* Track */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+/* Handle */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+.P_tableArtists_MobileScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2px;
+}
+.P_tableArtists_MobileScroll {
+  width: 100%;
+  overflow-y: auto;
+  max-height: 400px;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+
+.P_tableArtists_MobileScroll_New {
+  width: 100%;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px !important;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+  max-width: 85vw;
+}
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 2px;
+  width: 4px;
+}
+
+/* Track */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+/* Handle */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2px;
+}
+
+.badge_dot {
+  display: inline-block;
+  background-color: #242328;
+  width: 4px;
+  margin-right: 10px !important;
+  height: 4px;
+  position: relative;
+  bottom: 2px;
+  border-radius: 50px;
+}
+.badge_dot_Gray {
+  display: inline-block;
+  background-color: #83909d;
+  width: 4px;
+  margin-right: 10px !important;
+  height: 4px;
+  position: relative;
+  bottom: 2px;
+  border-radius: 50px;
+}
+.navMenu_mobile {
+  width: 100%;
+  margin-top: -20px !important;
+  padding: 10px 0px !important;
+  position: relative;
+  top: 75px;
+}
+.itemDashMobile {
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909d;
+  cursor: pointer;
+  margin-right: 30px !important;
+}
+.itemDashMobile_active {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  cursor: pointer;
+  margin-right: 30px !important;
+}
+.percentDiscount {
+  color: #83909d;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  left: 8px;
+}
+.Confirm {
+  border-radius: 8px !important;
+  font-size: 12px !important;
+}
+.p_table_13 {
+  margin-top: 13px !important;
+}
+
+.P_Create {
+  position: relative;
+  top: 5px;
+}
+
+.ArtistInMobile {
+  border-bottom: 1.5px solid #f5f7fa;
+  padding-bottom: 14px;
+  margin-top: 28px !important;
+  position: relative;
+}
+
+.OrdersMobile {
+  padding: 20px 0;
+  border-bottom: 1.5px solid #f5f7fa;
+}
+.ChannelMobile {
+  margin-left: 12px !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+.ChannelMobile2 {
+  margin-left: 12px !important;
+  font-weight: 400;
+  font-size: 12px;
+}
+.P_IconsMobile {
+  position: relative;
+  bottom: 2px;
+}
+.PdfMobile {
+  margin-right: 11px !important;
+}
+.InfoMobile {
+  padding-left: 32px;
+}
+.CustomerMobile {
+  font-size: 12px;
+  margin-top: 16px !important;
+}
+.content_shipping:hover .Icondelete {
+  opacity: 1;
+  display: inline-block !important;
+}
+.content_shipping:hover .NumCount {
+  opacity: 0;
+  display: none;
+}
+
+.Icondelete {
+  opacity: 0;
+  display: none !important;
+}
+.CustomerMobile2 {
+  font-size: 12px;
+  margin-top: 10px !important;
+}
+.OrderNumMobile {
+  font-size: 12px;
+  margin-top: 20px !important;
+}
+.DateMobile {
+  padding-left: 16px;
+  border-left: 1px solid #eef0f3;
+  margin-left: 16px !important;
+}
+.TotalMobile {
+  font-size: 12px;
+  margin-top: 16px !important;
+}
+.TotalAmount {
+  padding-left: 16px;
+  border-left: 1px solid #eef0f3;
+  margin-left: 16px !important;
+}
+.PaymentText {
+  font-size: 12px;
+  color: #83909d;
+  margin-top: 8px !important;
+}
+.P_Tb {
+  margin-top: 18px !important;
+}
+.P_check {
+  display: inline-block !important;
+  position: relative;
+  top: 5px;
+  margin-right: 16px !important;
+}
+.P_check1 {
+  display: inline-block !important;
+  margin-right: 16px !important;
+  position: relative;
+  top: 2px;
+}
+.AvailableText{
+  font-size: 12px;
+  color: #83909D;
+}
+/* For Desktop */
+@media screen and (min-width: 960px) {
+  .Middle_Payment {
+    margin-bottom: 40px !important;
+  }
+}
+
+/* For Mobile */
+@media screen and (max-width: 960px) {
+  .wrapper_saved{
+    padding: 0;
+  }
+  .P_ArtworkSec {
+    padding: 7px 0;
+  }
+  .PaymentList {
+    margin-top: 20px !important;
+  }
+  .box:hover .C_Count {
+    opacity: 1;
+    display: inline-block;
+  }
+  .Count {
+    white-space: nowrap;
+  }
+  .P_search_Filter {
+    margin-top: 28px !important;
+  }
+  .p_table_13 {
+    margin-top: 0px !important;
+    overflow: hidden;
+  }
+  .B_Channel {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+  }
+  .B_Check {
+    position: relative;
+    top: 2px;
+    position: absolute;
+    top: 25px;
+  }
+  .B_Customer {
+    position: absolute;
+    top: 63px;
+    left: 35px;
+    font-size: 12px;
+  }
+  .B_Customer_Draft {
+    position: absolute;
+    top: 26px;
+    left: 35px;
+    font-size: 12px;
+  }
+  .B_Duplicate_Draft {
+    position: absolute;
+    top: 16px;
+    right: 21px;
+  }
+  .B_Order {
+    position: absolute;
+    left: 35px;
+    top: 104px;
+    font-size: 12px;
+  }
+  .B_Date {
+    width: 50px;
+    position: absolute;
+    top: 104px;
+    left: 85px;
+    padding-left: 15px;
+    border-left: 1px solid #eef0f3;
+    font-size: 12px;
+  }
+  .B_Date_Draft {
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    font-size: 12px;
+  }
+  .B_Statuse {
+    position: absolute;
+    top: 140px;
+    left: 34px;
+    font-size: 12px;
+  }
+  .B_Statuse_Draft {
+    position: absolute;
+    top: 92px;
+    left: 34px;
+    font-size: 12px;
+  }
+  .B_Total {
+    font-size: 12px;
+    position: absolute;
+    top: 142px;
+    left: 160px;
+    padding-left: 16px;
+    border-left: 1px solid #eef0f3;
+  }
+  .B_Total_Draft {
+    font-size: 12px;
+    position: absolute;
+    top: 93px;
+    left: 161px;
+    padding-left: 16px;
+    border-left: 1px solid #eef0f3;
+  }
+  .B_Delete {
+    position: absolute;
+    right: -12px;
+    top: 15px;
+  }
+  .B_Delete_Draft {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+  }
+  .B_Pdf {
+    position: absolute;
+    right: 28px;
+    top: 15px;
+  }
+  .tableData {
+    height: 180px;
+  }
+  .tableData_Draft {
+    height: 135px;
+  }
+  .Xs_Mb {
+    margin-bottom: 30px !important;
+  }
+  .Tracking {
+    width: 78vw;
+  }
+  .TwoForm {
+    width: 100%;
+  }
+  .Mt_Xs {
+    margin-top: 90px !important;
+  }
+  .p_LogoMethod {
+    position: absolute;
+    border: 0;
+    left: 29px;
+    bottom: 5px;
+  }
+  .Order_Xs1 {
+    order: 1 !important;
+  }
+  .Xs_Mt {
+    margin-top: 90px !important;
+  }
+  .Summary {
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+  }
+  .TitleSummary {
+    border-radius: 0 !important;
+  }
+  .Middle_Payment {
+    margin-top: 0 !important;
+  }
+  .Twobutton {
+    font-size: 12px !important;
+  }
+  .Method {
+    padding: 20px 0 37px 0;
+  }
+  .CartNum {
+    position: absolute;
+    left: 14px;
+    bottom: -23px;
+    width: max-content;
+    border-left: none;
+    padding-left: unset;
+  }
+  .PhoneArtist_5 {
+    padding-right: 44px;
+  }
+  .nameArtist_5 {
+    padding-right: 30px;
+  }
+  .tableArtists {
+    white-space: nowrap;
+  }
+  .p_table {
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-color: #242424 #eef0f3;
+    scrollbar-width: thin;
+  }
+  /* width */
+  .p_table::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+  }
+
+  /* Track */
+  .p_table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .p_table::-webkit-scrollbar-thumb {
+    background: #242328;
+    border-radius: 8px;
+  }
+
+  /* Handle on hover */
+  .p_table::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .CC_table {
+    width: 1px;
+  }
+  .Wrapper_Right {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .RightSide_Payment_manual {
+    order: 1;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .RightSide_Payment {
+    order: 1;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 50px !important;
+  }
+  .RightSide_Payment_Shipping {
+    order: 1;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+  }
+  .Middle_Payment {
+    padding: 0 20px !important;
+    order: 2;
+  }
+  .TextCreatePay {
+    font-size: 16px;
+    text-align: start;
+  }
+  .LeftSide__Payment {
+    padding: 10px;
+    padding-right: 20px;
+    margin-top: 0 !important;
+    border-bottom: 1px solid #eef0f3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100000;
+    width: 100%;
+  }
+  .ContactDesk {
+    max-width: 270px;
+  }
+  .LineContact {
+    display: inline-block;
+    width: 2px;
+    background-color: #eef0f3;
+    height: 63px;
+    position: absolute;
+    top: -64px;
+    left: 9px;
+  }
+  .ContactCreated {
+    margin-bottom: 43px !important;
+  }
+  .DateContact {
+    position: absolute;
+    bottom: -26px;
+    left: 44px;
+  }
+  .Emoji {
+    position: absolute;
+    left: 57px;
+    right: unset;
+    top: 59px;
+    cursor: pointer;
+  }
+  .P_CommentType {
+    left: 0;
+    top: 60px;
+    right: unset;
+  }
+  .P_ImageInput {
+    position: relative;
+    margin-bottom: 50px !important;
+  }
+  .P_Btn_CreatShipping {
+    width: 100%;
+  }
+  .ManualFillment {
+    margin-left: 0px !important;
+    width: 100%;
+    margin-top: 8px !important;
+  }
+
+  .P_Btn_CreatShipping {
+    margin-top: 15px !important;
+  }
+  .CreateShipping {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  .PTable {
+    width: 704px;
+  }
+  .TableOrders {
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-color: #242424 #eef0f3;
+    scrollbar-width: thin;
+    max-width: 82vw;
+  }
+
+  /* width */
+  .TableOrders::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  /* Track */
+  .TableOrders::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .TableOrders::-webkit-scrollbar-thumb {
+    background: #242328;
+    border-radius: 8px;
+  }
+
+  /* Handle on hover */
+  .TableOrders::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .Rm_btn {
+    display: inline-block !important;
+    opacity: 1;
+  }
+  .C_Count {
+    display: inline-block;
+  }
+  .P_brose {
+    width: 47.5%;
+  }
+  .P_BrowsItem {
+    width: 100%;
+    margin-top: 10px !important;
+  }
+  .BrowsItem {
+    background: #f7f8fa !important;
+    border-radius: 6px !important;
+    padding: 9.3px 5px !important;
+    margin-left: 0px !important;
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+
+  .LeftSide_saved {
+    order: 2;
+    width: 100%;
+    padding: 0 24px !important;
+  }
+  .TextIconBtn{
+    top: 0;
+    padding: 10px 0;
+  }
+  .MainTitle2{
+    margin-bottom: 52px !important;
+  }
+  .RefundBtnAbs{
+    right: 50%;
+    transform: translateX(50%);
+    top: 56px;
+  }
+  .TwoForm30 {
+    width: 100%;
+  }
+  .TwoForm60 {
+    width: 100%;
+  }
+
+  .headerName {
+    width: 110px;
+  }
+  .tableArtists_MobileScroll {
+    width: max-content;
+  }
+  .tableArtists_MobileScroll_New {
+    width: 100%;
+    min-width: 700px;
+  }
+  .artist_Pic {
+    width: 85px;
+  }
+  .artist_Pic_5 {
+    padding-right: 20px;
+  }
+  .P_InputTimeLine {
+    margin-right: 0 !important;
+  }
+  .P_SendBtn {
+    position: absolute;
+    right: 0;
+    bottom: -38px;
+  }
+  .P_tableArtists_MobileScroll {
+    width: 100%;
+    overflow: auto;
+    height: 250px;
+  }
+
+  .P_tableArtwork_2 {
+    padding-bottom: 20px;
+  }
+
+  .P_Switch_1 {
+    margin-top: 20px !important;
+    border-top: 1px solid #eef0f3;
+  }
+  .CloseAdd {
+    opacity: 1;
+  }
+  .P_Btn_1 {
+    width: 100% !important;
+    margin-top: 14px !important;
+  }
+  .P_Btn {
+    width: 100% !important;
+  }
+  .addBtn {
+    font-size: 12px !important;
+  }
+  .Middle_Add {
+    width: 100%;
+    padding: 0 24px;
+  }
+  .text_manage_noWidth {
+    width: 90%;
+  }
+  .RightSide_saved {
+    width: 100%;
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+    padding: 0 24px;
+    order: 1;
+  }
+  .WrapperNOT {
+    margin-top: 65px !important;
+  }
+  .P_MakePayment {
+    margin-top: 15px !important;
+  }
+  .nameContact {
+    font-size: 16px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px;
+    border-bottom: 1px solid #eef0f3;
+    z-index: 1000;
+  }
+
+  .emailArtist_Br {
+    font-size: 14px;
+    color: #242328;
+    left: 30px;
+    top: 100px;
+    position: absolute;
+    border: none;
+    font-size: 12px;
+  }
+
+  .PhoneArtist_Br {
+    font-size: 14px;
+    color: #242328;
+    border: none;
+    position: absolute;
+    left: 27px;
+    top: 73px;
+    font-size: 12px;
+  }
+
+  .nameArtist_Br {
+    font-size: 14px;
+    font-weight: 500;
+    color: #242328;
+    position: absolute;
+    left: 93px;
+    top: 27px;
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .headerPhone_Br {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    width: 20px;
+    border: none;
+  }
+  .headerPhone {
+    width: 150px;
+  }
+  .headerCost_Br {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    width: 20px;
+    border: none;
+  }
+  .headerCost {
+    width: 110px;
+  }
+  .headerIcon {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    width: 20px;
+    border: none;
+  }
+
+  .headerName_Br {
+    width: 10px;
+  }
+
+  .headerArtwork {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    width: 64px;
+  }
+  .headerArtist_Br {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    border-bottom: 2px solid #f5f7fa;
+    width: 64px;
+    position: relative;
+    left: 10px;
+  }
+
+  .header_checkbox_Br {
+    width: 20px;
+  }
+  .p_orders_items::-webkit-scrollbar-thumb {
+    background: #242328;
+    border-radius: 8px;
+  }
+  .p_orders_items::-webkit-scrollbar {
+    height: 4px;
+  }
+  .p_orders_items {
+    margin-top: 25px !important;
+  }
+
+  .p_imgTable {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    white-space: nowrap;
+    margin-right: 30px;
+  }
+  .bgBtn1 {
+    margin-top: 12px !important;
+  }
+  .searchImg {
+    position: absolute !important;
+    top: 10px !important;
+    left: 18px !important;
+  }
+  .tiny_search {
+    height: 40px;
+  }
+  .tiny_search::placeholder {
+    width: 50px;
+    opacity: 1;
+  }
+  .P_artistNav {
+    margin-top: 20px !important;
+    margin-bottom: 34px !important;
+  }
+  .P_tiny_search {
+    flex: 1;
+    margin-right: 12px !important;
+    position: relative;
+  }
+  .btnAdd {
+    font-size: 12px !important;
+  }
+  .p_contact {
+    margin-top: 60px !important;
+  }
+  .titleText {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+  }
+  .tableArtists_12 {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tableArtists_12 {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .tableArtists_12 {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1700px) and (min-width: 1600px) {
+  .tableArtists_12 {
+    width: 675px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 1700px) {
+  .tableArtists_12 {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+  .tableArtists_12 {
+    width: 760px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .tableArtists_12 {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .tableArtists_12 {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .tableArtists_12 {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .p_orders_items {
+    max-width: 380px !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .p_orders_items {
+    width: 320px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .p_orders_items {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  .p_orders_items {
+    width: 282px !important;
+  }
+}

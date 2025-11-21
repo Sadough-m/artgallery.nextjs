@@ -1,0 +1,402 @@
+.wrapper {
+    width: 400px;
+    height: 60vh;
+    margin-top: 40px !important;
+}
+
+.wrapper1 {
+    text-align: start;
+    width: 100%;
+}
+
+.or {
+    color: #A8B3BC;
+    font-size: 14px;
+}
+.fw_500{
+    font-weight: 500 !important; 
+}
+.p_enterCode{
+    margin-top: 30px !important;
+}
+.P_formCode{
+    position: relative;
+    left: -8px;
+}
+.resendTime{
+    color: #83909D;
+    font-size: 14px;
+    margin-top: 22px !important;
+}
+.fw500_fs14{
+    font-weight: 500;
+    font-size: 14px;
+}
+.buttons_changeEmail{
+    width: 100% !important;
+    position: relative;
+    left: -7px;
+    margin-top: 20px !important;
+}
+.checkBox {
+    margin-bottom: 22px !important;
+}
+
+.txtSendCode{
+    font-size: 14px;
+    color: #83909D;
+    margin-top: 30px !important;
+}
+
+.line {
+    border-bottom: 2px solid #F7F8FA;
+    width: 100%;
+    margin-top: 5px !important;
+}
+
+
+.signInFont {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.line1 {
+    width: 45%;
+    height: 1px;
+    background-color: #EEF0F3;
+}
+.Icon_Menu{
+    position: relative;
+    right: 14px;
+}
+.line2 {
+    width: 100%;
+    height: 1px;
+    background-color: #EEF0F3;
+    position: absolute !important;
+    top: 65px;
+}
+
+.line3 {
+    width: 100%;
+    height: 1px;
+    background-color: #EEF0F3;
+    position: absolute !important;
+    bottom: 60px;
+}
+
+.font_checkBox {
+    font-size: 14px;
+}
+
+.line1__P {
+    margin-top: 20px !important;
+    margin-bottom: 27px !important;
+}
+
+
+
+.forgot__button {
+    margin-top: 20px;
+}
+
+.signIn {
+    margin: 0 30px;
+    width: 100%;
+    height: 48px;
+    padding: 10px 0 !important;
+    border-radius: 10px !important;
+    text-align: center;
+    margin-top: 10px !important;
+    color: white !important;
+}
+.signIn1 {
+    width: 100%;
+    padding: 10px 0 !important;
+    border-radius: 8px !important;
+    text-align: center;
+    margin-top:25px !important;
+}
+.signIn2 {
+    margin-top: 32px !important;
+    width: 100%;
+    padding: 10px 0 !important;
+    border-radius: 8px !important;
+    text-align: center;
+}
+
+.SignInGoogle {
+    margin-bottom: 5px !important;
+    height: 48px;
+    width: 100%;
+    padding: 10px 0 !important;
+    border-radius: 10px !important;
+    text-align: center;
+    border: 2px solid #EEF0F3 !important;
+}
+.SignInGoogle1 {
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    height: 48px;
+    width: 100%;
+    padding: 10px 0 !important;
+    border-radius: 10px !important;
+    text-align: center;
+    border: 2px solid #EEF0F3 !important;
+}
+.fullHeight{
+    height: 100vh;
+}
+.havent__account {
+    margin-top: 12px !important;
+    color: #83909D;
+    font-size: 14px;
+}
+.havent__account1{
+    margin-top: 20px !important;
+    padding-bottom: 100px !important;
+    color: #83909D;
+    font-size: 14px;
+}
+.scroll{
+    overflow: scroll !important;
+    scrollbar-width: none !important;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.pic__Gallery {
+    background: #242328;
+    height: 100vh;
+}
+
+.some__Margin {
+    margin-bottom: 20px !important;
+}
+
+.margil_left {
+    margin-left: -7px !important;
+}
+
+.form__Group {
+    margin-top: 30px !important;
+}
+
+/* .Single__form {
+    margin-top: 20px !important;
+} */
+.TestBtn {
+    padding: 14px 40px !important;
+    float: left !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+.IconMobile {
+    float: left !important;
+    position: relative;
+    left: 10px;
+}
+
+.IconMobile_1 {
+    float: left !important;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.margin__top {
+    margin-top: 60px !important;
+}
+
+.margin__top_2 {
+    margin-top: 60px !important;
+}
+
+.IconShowPass input {
+    background-image: url(../public/images/icons/eye-cross_1.svg);
+    background-repeat: no-repeat;
+    background-position: 370px 10px;
+    vertical-align: middle;
+}
+
+.img__Bg {
+    background: url(../public/images/icons/Group\ 143724670.png);
+    width: 100%;
+    height: 85vh;
+}
+
+.eyeIcon {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.InputAndEye {
+    position: relative;
+}
+
+.Check__Box {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 5px !important;
+}
+
+.line4 {
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    height: 1px;
+    background-color: #EEF0F3;
+    z-index: -10;
+}
+.line41{
+    width: 108%;
+    position: absolute;
+    bottom: 60px;
+    height: 1px;
+    text-align: center;
+    left: -14px;
+    background-color: #EEF0F3;
+    z-index: -10;
+}
+.line5 {
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+    height: 1px;
+    background-color: #EEF0F3;
+    z-index: -10;
+}
+
+.line6 {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    height: 1px;
+    background-color: #EEF0F3;
+    z-index: -10;
+}
+.errorText{
+    font-size: 12px;
+    color: #FF4026;
+}
+
+.btnForgut {
+    margin-left: 100x !important;
+}
+
+.w_90 {
+    width: 90%;
+}
+.input_verification{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #EEF0F3;
+    border-radius: 6px;
+    padding-left: 14px;
+}
+.Verification_error{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF4026;
+    border-radius: 6px;
+    padding-left: 14px;
+}
+.Verification_error:focus{
+    outline: none !important;
+}
+.input_verification:focus{
+    outline: none;
+    border: 2px solid #3772FF;
+
+}
+.resendCode{
+    font-weight: 500 !important;
+}
+.P_resendCode{
+    margin-left: 80px !important;
+}
+@media screen and (max-width:960px) {
+    .TestBtn {
+        padding: 14px 40px !important;
+        float: left !important;
+        border-radius: 6px !important;
+        box-shadow: none !important;
+    }
+    .P_resendCode{
+        margin-left: 50px !important;
+    }
+    .scroll{
+        overflow: visible !important;
+    }
+    .wrapper2 {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 300px;
+    }
+    
+
+    .signInFont2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .wrapperLeft {
+        justify-content: center !important;
+    }
+
+    .havent__account {
+        margin-top: 15px !important;
+        padding-bottom: 100px !important;
+        color: #83909D;
+        font-size: 14px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .wrapper {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 100%;
+        margin-top: 10px !important;
+
+    }
+
+    .line {
+        border-bottom: 2px solid #F7F8FA;
+        width: 55%;
+    }
+
+    .signInFont {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .margin__top {
+        margin-top: 32px !important;
+    }
+    .margin__top_2 {
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .wrapper {
+
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:960px) {
+    .wrapper {
+
+        margin-left: 40px !important;
+    }
+}

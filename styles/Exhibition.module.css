@@ -1,0 +1,1329 @@
+.Wrapper {
+  margin: 20px 25px !important;
+  flex: 1;
+  min-height: 85vh;
+}
+.Wrapper_Empty {
+  margin: 20px 25px !important;
+  flex: 1;
+  min-height: 85vh;
+}
+.titleText {
+  font-size: 18px;
+  font-weight: 500;
+}
+.badgeGreen {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  bottom: 2px;
+  border-radius: 50px;
+  background-color: #a6e9de;
+  margin-right: 10px;
+}
+.p_empty {
+  height: 98%;
+}
+.img_mask {
+  margin-bottom: 15px !important;
+}
+.text_manage_noWidth {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+.text_product {
+  color: #a8b3bc;
+  font-size: 14px;
+  margin-bottom: 21px !important;
+  max-width: 500px;
+  text-align: center;
+}
+.addButton {
+  border-radius: 8px !important;
+  padding: 8px 23px !important;
+}
+.P_Create {
+  position: relative;
+  top: 5px;
+}
+.Create {
+  border-radius: 7px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 12px !important;
+}
+.P_search_Filter {
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+.P_tiny_search {
+  position: relative;
+  width: 320px;
+}
+.tiny_search {
+  background-color: #f7f8fa;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  border: none;
+  height: 32px;
+  width: 100%;
+}
+.tiny_search:focus {
+  outline: 2px solid #3772ff;
+}
+.tiny_search::placeholder {
+  opacity: 1;
+}
+.searchImg {
+  position: absolute !important;
+  top: 6px !important;
+  left: 18px !important;
+}
+.p_table_13 {
+  margin-top: 13px !important;
+}
+.tableArtists {
+  width: 100%;
+}
+.header_table {
+  text-align: left;
+  height: 40px;
+  position: relative;
+}
+.H_Check {
+  width: 35px;
+}
+.H_Exhibition {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  min-width: 250px;
+  flex: 1;
+}
+.H_Artist {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 200px;
+}
+.H_Statuse {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 140px;
+}
+.View {
+  float: right;
+}
+.H_Duration {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 160px;
+}
+.H_Location {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 150px;
+}
+.H_Delete {
+  width: 50px;
+}
+.H_Duplicate {
+  width: 65px;
+}
+.lineTable {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 1px;
+  background-color: #eef0f3;
+}
+.tableData_Draft {
+  height: 100px;
+  position: relative;
+}
+.B_Check {
+  position: relative;
+  top: 2px;
+}
+.B_Exhibition {
+  font-size: 14px;
+}
+.B_Artist {
+  font-size: 14px;
+  width: 50px;
+}
+.B_Statuse {
+  font-size: 14px;
+}
+.B_Duration {
+  font-size: 14px;
+}
+.B_Location {
+  font-size: 14px;
+}
+.B_View {
+  white-space: nowrap;
+}
+.lineTable {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 1px;
+  background-color: #eef0f3;
+}
+.ExhobitionName {
+  position: relative;
+  bottom: 23px;
+  left: 23px;
+  font-weight: 500;
+}
+.ImgExhibition {
+  position: relative;
+  top: 2px;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 64px;
+  height: 64px;
+}
+.mobileNav {
+  position: fixed;
+  top: 0;
+  padding: 14px 15px;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #eef0f3;
+}
+.textAdd {
+  font-weight: 500;
+}
+.iconBtn {
+  margin-right: 10px !important;
+}
+.addBtn {
+  border-radius: 7px !important;
+}
+.wrapper_add {
+  margin-top: 20px !important;
+}
+.leftSide_Add {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Middle_Add {
+  width: 36%;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+}
+.rightSide_Add {
+  flex: 1;
+}
+.p_buttons {
+  margin-left: 16px !important;
+  position: sticky;
+  top: 80px;
+}
+.discardBtn {
+  background-color: #f7f8fa !important;
+  border-radius: 6px !important;
+  margin-right: 12px !important;
+  padding: 6px 18px !important;
+  font-size: 12px !important;
+}
+.addContact {
+  border-radius: 7px !important;
+  font-size: 12px !important;
+}
+.Main_1 {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eef0f3;
+  padding: 20px 20px 12px 20px;
+  margin-top: 30px !important;
+}
+.TitleMain {
+  font-weight: 500;
+  color: #83909d;
+  text-align: center;
+  margin-bottom: 18px !important;
+}
+.bgBtn1 {
+  background-color: #f7f8fa;
+  padding: 5px;
+  border-radius: 8px;
+  width: max-content !important;
+  margin-top: 18px !important;
+  margin-bottom: 14px !important;
+}
+
+.Twobutton1 {
+  border-radius: 6px !important;
+  height: 39px !important;
+  padding: 8px 20px !important;
+}
+
+.Twobutton {
+  border-radius: 6px !important;
+  height: 39px !important;
+}
+.TwoForm {
+  width: 47.5%;
+}
+.fitBtn {
+  position: relative !important;
+  right: 4px;
+  margin-top: 8px !important;
+  margin-bottom: 5px !important;
+}
+.fitBtn_2 {
+  position: relative !important;
+  right: 4px;
+  margin-top: 8px !important;
+  margin-bottom: 5px !important;
+}
+.ArtworkText {
+  font-size: 14px;
+  font-weight: 500;
+}
+.WrapperArtworks {
+  background: #ffffff;
+  border: 1.5px solid #eef0f3;
+  border-radius: 6px;
+  height: 40px;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+.ChooseText {
+  font-size: 14px;
+  color: #a8b3bc;
+  margin-left: 10px !important;
+}
+.Media {
+  width: 100%;
+  padding: 23px;
+  border: 2px dashed #eef0f3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.Media_3 {
+  width: 100%;
+  border-radius: 6px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  cursor: pointer;
+}
+.AddText {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px !important;
+}
+.DropDownText {
+  font-size: 12px;
+  color: #a8b3bc;
+  margin-top: 6px !important;
+}
+.wrapper_saved {
+  margin-top: 20px !important;
+  margin-bottom: 50px !important;
+}
+.RightSide_saved {
+  width: 352px;
+}
+.LeftSide_saved {
+  width: 49%;
+  padding-right: 30px !important;
+}
+.textNote {
+  font-size: 16px;
+  font-weight: 500;
+}
+.bgBtn {
+  padding: 5px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+.bgBtn_3 {
+  padding: 5px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  border-radius: 8px;
+  position: relative;
+  right: 6px;
+}
+
+.C_BgBtn{
+  background-color: #f7f8fa;
+  padding: 20px 10px 20px 0;
+  border-radius: 18px;
+  display: inline;
+}
+.btnTeam {
+  margin-left: 10px !important;
+  position: relative;
+  display: inline-block;
+}
+.Twobutton_empty_selected {
+  border-radius: 6px !important;
+  height: 39px !important;
+  background-color: #eef0f3 !important;
+  color: #242328 !important;
+  padding-left: 40px !important;
+  padding-right: 20px !important;
+}
+.Twobutton {
+  border-radius: 6px !important;
+  height: 39px !important;
+  background-color: #242328 !important;
+  color: white !important;
+  padding-left: 40px !important;
+  padding-right: 20px !important;
+}
+.Twobutton_empty {
+  border-radius: 6px !important;
+  height: 39px !important;
+  background-color: transparent !important;
+  color: #242328 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.Note {
+  margin-top: 30px !important;
+}
+.Artworks {
+  margin-top: 7px !important;
+}
+.P_TitleArtworks_2 {
+  margin-bottom: 8px !important;
+}
+.TitleArtworks_2 {
+  font-weight: 500;
+}
+.CreateShipping {
+  border-radius: 6px !important;
+  margin-left: 12px !important;
+  position: relative;
+  right: -6px;
+}
+.ArtworksContainer_2 {
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  padding: 0 5px;
+}
+.P_tableArtists_MobileScroll_New {
+  width: 100%;
+  overflow-y: auto;
+  margin-bottom: 10px !important;
+  scrollbar-color: #242424 #eef0f3;
+  scrollbar-width: thin;
+}
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 2px;
+  width: 4px;
+}
+
+/* Track */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+/* Handle */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-thumb {
+  background: #242328;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+.P_tableArtists_MobileScroll_New::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2px;
+}
+.header_table {
+  text-align: left;
+  height: 45px;
+  position: relative;
+}
+.headerArtist {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 85px;
+  padding-left: 10px;
+}
+.headerName {
+  width: 219px;
+}
+.headerPhone {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 250px;
+}
+.headerCost {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 170px;
+}
+.headerIcon {
+  font-size: 12px;
+  color: #a8b3bc;
+  font-weight: 400;
+  width: 40px;
+}
+.tableData_old {
+  height: 78px;
+  position: relative;
+}
+.artist_Pic {
+  padding-left: 10px;
+  width: 110px;
+}
+.imgArtworkModal {
+  position: relative !important;
+  top: 3px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+.nameArtist_2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242328;
+  position: relative;
+  right: 15px;
+}
+.ArtistNameTable {
+  font-size: 12px;
+  color: #83909d;
+  font-weight: 400;
+}
+.PhoneArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.emailArtist {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+}
+.emailArtist_1 {
+  font-size: 14px;
+  color: #242328;
+  font-weight: 400;
+  position: relative;
+  bottom: 2px;
+  white-space: nowrap;
+}
+.TimeLineText {
+  font-weight: 500;
+  margin-top: 35px !important;
+  margin-bottom: 17px !important;
+}
+.ImgTimeLine {
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+}
+.P_ContactCreated {
+  margin-top: 20px !important;
+  padding-left: 17px;
+  overflow: hidden;
+}
+.ContactCreated {
+  position: relative;
+  margin-bottom: 17px !important;
+}
+.TextContact {
+  font-size: 14px;
+}
+.Elipse {
+  margin-right: 24px;
+  position: relative;
+  top: 5px;
+}
+.DateContact {
+  font-size: 12px;
+  color: #83909d;
+}
+.Date {
+  padding: 1px 18px 1px 0;
+  border-right: 1px solid #eef0f3;
+}
+.Time {
+  padding-left: 13px;
+}
+.ContactDesk {
+  font-size: 12px;
+  color: #83909d;
+  margin-left: 44px !important;
+  margin-top: 8px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 450px;
+  white-space: nowrap;
+}
+.LineContact {
+  display: inline-block;
+  width: 2px;
+  background-color: #eef0f3;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  left: 9px;
+}
+.Media_2 {
+  margin-top: 30px !important;
+}
+.Media_wrapper {
+  padding: 15px;
+  border: 2px solid #eef0f3;
+  border-radius: 6px;
+  margin-top: 12px !important;
+}
+.BtnUpload {
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  padding: 6px 23px;
+}
+.ArrangeMent {
+  background-color: #f7f8fa;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 15px !important;
+}
+.ThreeD {
+  background-color: #f7f8fa;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 15px !important;
+}
+.ArrangementText {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px !important;
+  flex: 1;
+}
+.ArrangementDesk {
+  font-size: 12px;
+  color: #83909d;
+}
+.P_Arrange {
+  margin-left: 14px !important;
+  flex: 1;
+}
+.ImgArrange {
+  position: relative;
+  top: 3px;
+}
+.ImgThree {
+  position: relative;
+  top: 7px;
+  margin-right: 10px !important;
+}
+.DotBlue {
+  display: inline-block;
+  border-radius: 50px;
+  width: 6px;
+  height: 6px;
+  background-color: #3772ff;
+  margin-right: 8px;
+}
+.LineMiddle {
+  display: inline-block;
+  width: 2px;
+  height: 26px;
+  margin-left: 15px;
+  margin-right: 18px;
+  background-color: #eef0f3;
+  position: relative;
+  top: 8px;
+}
+.WrapperImages {
+  margin-top: 5px !important;
+}
+.P_IMG_NotSup {
+  position: relative;
+  height: 119px;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+}
+.P_IMG {
+  position: relative;
+  height: 119px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+}
+.P_IMG:hover .OverflowImage,
+.P_IMG:hover .TrashIcon,
+.P_IMG:hover .MoveIcon,
+.P_IMG:hover .ZoomIcon,
+.P_IMG:hover .InputImage {
+  opacity: 1;
+}
+.IMG {
+  width: 119px;
+  height: 119px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.IMG_Modal {
+  width: 107px;
+  height: 107px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+.P_IMG_NotSup_Modal {
+  position: relative;
+  height: 107px;
+}
+.P_IMG_Modal {
+  position: relative;
+  height: 107px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.P_IMG_Modal:hover .OverflowImage,
+.P_IMG_Modal:hover .TrashIcon,
+.P_IMG_Modal:hover .MoveIcon,
+.P_IMG_Modal:hover .ZoomIcon,
+.P_IMG_Modal:hover .InputImage {
+  opacity: 1;
+}
+
+
+.OverflowImage {
+  display: inline-block;
+  background-color: #242328cc;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 6px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.TrashIcon {
+  position: absolute !important;
+  left: -4px;
+  top: -4px;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.MoveIcon {
+  position: absolute !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.CancelIcon {
+  position: absolute !important;
+  left: 6px;
+  bottom: 6px;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.ZoomIcon {
+  position: absolute !important;
+  right: -4px;
+  top: -4px;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.InputImage {
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  left: 0;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  padding-left: 8px;
+  padding-right: 5px;
+  opacity: 0;
+}
+.InputImage::placeholder {
+  opacity: 1;
+  color: #eef0f3;
+  font-size: 12px;
+}
+.InputImage:focus {
+  outline: none;
+}
+.Tiff {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 3px 9px;
+  font-weight: 500;
+}
+.ImgTypeFile {
+  position: absolute;
+  bottom: 0px;
+  left: 3px;
+}
+.PercentUpload {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-weight: 500;
+  color: #3772ff;
+}
+.PercentMobile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 3px 3px;
+  font-weight: 500;
+  color: #3772ff;
+}
+.P_PercentImg {
+  display: inline;
+  display: inline-block;
+  height: 56px;
+  width: 56px;
+  position: relative;
+}
+
+.IMG_Mobile {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.Move_Mobile {
+  position: relative !important;
+  bottom: 24px;
+  margin-right: 15px !important;
+}
+.Input_Mobile {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  position: relative;
+  bottom: 24px;
+  margin-left: 10px;
+  font-weight: 500;
+  width: 115px;
+}
+.Input_Mobile::placeholder {
+  font-size: 12px;
+}
+.Input_Mobile:focus {
+  outline: none;
+}
+.P_OptionMobile {
+  position: relative;
+  bottom: 3px;
+}
+.P_CloseMobile {
+  position: relative;
+  bottom: 4px;
+  left: 8px;
+}
+.P_ImgMobile {
+  margin-top: 8px !important;
+}
+.Icons_1 {
+  float: right;
+  margin-bottom: 25px !important;
+  margin-top: -7px !important;
+  position: relative !important;
+  right: -10px;
+}
+.Profile {
+  border: 1px solid #eef0f3;
+  border-radius: 8px;
+  clear: right;
+  margin-top: 30px !important;
+}
+.TitleProfile {
+  background-color: #f7f8fa;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 17px 10px 25px;
+  outline: 1px solid #f7f8fa;
+}
+.overView {
+  font-size: 16px;
+  font-weight: 500;
+}
+.ContainerProfile {
+  padding: 26px 25px;
+}
+.ProfileImg {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.ProfileName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px !important;
+}
+.P_Info {
+  margin-top: 10px !important;
+  position: relative;
+}
+.RemoveLine {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.InsideFold{
+  padding: 10px 20px;
+}
+.ItemFolding{
+  padding: 15px 0;
+  border-bottom: 1px solid #EEF0F3;
+}
+.ItemFolding_artist{
+  padding: 15px 0;
+}
+.Title{
+  font-size: 14px;
+  font-weight: 500;
+  color: #83909D;
+}
+.Desk{
+  font-size: 14px;
+  color: #242328;
+  margin-top: 7px !important;
+}
+.Desk_artist{
+  font-size: 14px;
+  color: #242328;
+  margin-top: 7px !important;
+  margin-left: 20px !important;
+}
+.DotBlack{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #242328;
+  border-radius: 50px;
+  position: relative;
+  right: 11px;
+  bottom: 1.5px;
+}
+.Tags {
+  outline: 1px solid #eef0f3;
+  border-radius: 8px;
+  clear: right;
+  margin-top: 30px !important;
+}
+.TitleTags {
+  background-color: #f7f8fa;
+  border-radius: 8px 8px 0 0;
+  padding: 15px 17px 15px 25px;
+  outline: 1px solid #f7f8fa;
+}
+.overView {
+  font-size: 16px;
+  font-weight: 500;
+}
+.searchInput_Tags {
+  border: none;
+  width: 100%;
+  padding: 15px 25px;
+  border-bottom: 1px solid #eef0f3;
+}
+.searchInput_Tags:focus {
+  outline: none;
+}
+.P_ItemTags {
+  padding: 21px !important;
+  display: inline-block !important;
+}
+.FitBtnDesk{
+  position: relative;
+  right: 5px;
+}
+.ImgModal{
+  display: inline-block !important;
+}
+.ImgModal:hover .IconMiddle{
+  z-index: 0;
+  opacity: 0;
+}
+
+.IconMiddle{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.P_IMG_Modal:hover .IconDownLeft{
+  opacity: 0;
+  z-index: -1;
+}
+
+.IconDownLeft{
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+.EmptyArtwork{
+  font-size: 14px;
+  color: #A8B3BC;
+  height: 84px;
+}
+.ButtonFold{
+  position: relative !important;
+  top: 5px;
+  right: 6px;
+}
+.IconButton{
+  position: absolute !important;
+  left: 9px;
+  top: 7px;
+}
+.ArtistInMobile{
+  border-bottom: 1.5px solid #F5F7FA;
+  padding-bottom: 14px;
+  margin-top: 28px !important;
+  position: relative;
+}
+.ParentCheckBox{
+  position: relative;
+  top: 14px;
+  margin-right: 12px !important;
+}
+.PhotoArtist{
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.NameOfArtist{
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 13px !important;
+  position: relative;
+  top: 3px;
+}
+.TrashIconMobile{
+  position: relative !important;
+  bottom: 4px;
+  right: 7px;
+  z-index: 10;
+}
+.BookMarkIconMobile{
+  position: relative !important;
+  left: 3px;
+  z-index: 10;
+  bottom: 4px;
+}
+.BookMarkIcon{
+  width: 20px;
+}
+.P_EmailArtist{
+  margin-left: 32px !important;
+  margin-top: 7px !important;
+}
+.Phone{
+  font-size: 12px;
+}
+.EmailArtistMobile{
+  font-size: 12px;
+  margin-top: 15px !important;
+}
+.ArtistNameMobile{
+  color: #83909D;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 3px !important;
+}
+.LocationMobile{
+  margin-left: 16px !important;
+  padding-left: 16px;
+  border-left: 1px solid #EEF0F3;
+}
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .ImgMedia{
+    margin-right: 10px !important;
+    position: relative;
+    top: 6px;
+  }
+  .Wrapper_Empty {
+    margin: 20px 5px !important;
+  }
+  .Media_2{
+    margin-top: 33px !important;
+  }
+  .Note{
+    margin-top: 60px !important;
+  }
+  .TimeLine{
+    position: relative;
+    margin-top: 35px !important;
+  }
+  .TimeLineText{
+    position: absolute;
+    left: 70px;
+    top: -19px;
+  }
+  .Artworks{
+    margin-top: 10px !important;
+  }
+  .LineMiddle{
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+  }
+  .ThreeD{
+    padding: 7px 5px 7px 10px;
+  }
+  
+  .WrapperImages {
+    margin-top: 16px !important;
+  }
+  .LineContact {
+    display: inline-block;
+    width: 2px;
+    background-color: #eef0f3;
+    height: 63px;
+    position: absolute;
+    top: -64px;
+    left: 9px;
+  }
+  .ContactDesk {
+    width: 270px;
+  }
+  .DateContact {
+    position: absolute;
+    bottom: -26px;
+    left: 44px;
+  }
+  .ContactCreated {
+    margin-bottom: 43px !important;
+  }
+  .P_ImageInput {
+    position: relative;
+  }
+  .artist_Pic {
+    width: 85px;
+  }
+  .headerIcon {
+    font-size: 12px;
+    color: #a8b3bc;
+    font-weight: 400;
+    width: 20px;
+    border: none;
+  }
+  .headerCost {
+    width: 110px;
+  }
+  .headerPhone {
+    width: 150px;
+  }
+  .headerName {
+    width: 110px;
+  }
+  .tableArtists_MobileScroll_New {
+    width: 100%;
+    min-width: 700px;
+  }
+  .CreateShipping {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  .LeftSide_saved {
+    order: 1;
+    width: 100%;
+    padding: 0 20px !important;
+  }
+  .RightSide_saved {
+    width: 100%;
+    margin-bottom: 0px !important;
+    padding: 0 20px;
+    order: 2;
+  }
+  .ScrollableNote {
+    overflow: auto;
+  }
+  .TwoForm {
+    width: 100%;
+  }
+
+  .bgBtn1 {
+    margin-top: 12px !important;
+  }
+  .Middle_Add {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .addBtn {
+    font-size: 12px !important;
+  }
+  .B_Location {
+    font-size: 12px;
+    position: absolute;
+    bottom: 55px;
+    left: 73px;
+    padding-left: 15px;
+    border-left: 1px solid #eef0f3;
+  }
+  .ExhobitionName {
+    position: relative;
+    top: -21px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .ImgExhibition {
+    position: relative;
+    top: 10px;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .B_Duplicate {
+    position: absolute;
+    top: 25px;
+    right: 21px;
+  }
+  .B_Delete {
+    position: absolute;
+    right: -15px;
+    top: 25px;
+  }
+  .B_Duration {
+    font-size: 12px;
+    position: absolute;
+    top: 119px;
+    left: 35px;
+  }
+  .C_B_Duration {
+    display: inline-block;
+  }
+  .B_Statuse {
+    position: absolute;
+    bottom: 55px;
+    left: 35px;
+    font-size: 12px;
+  }
+  .B_Artist {
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 93px;
+    font-size: 12px;
+    color: #83909d;
+  }
+  .B_Exhibition {
+    position: absolute;
+    top: 12px;
+    left: 35px;
+    font-size: 12px;
+  }
+  .B_Check {
+    position: absolute;
+    top: 35px;
+  }
+  .tableData_Draft {
+    height: 160px;
+  }
+  .tableArtists {
+    white-space: nowrap;
+  }
+  .p_table_13 {
+    margin-top: 0px !important;
+    overflow: hidden;
+  }
+  .searchImg {
+    position: absolute !important;
+    top: 10px !important;
+    left: 18px !important;
+  }
+  .tiny_search {
+    height: 40px;
+  }
+  .tiny_search::placeholder {
+    width: 50px;
+    opacity: 1;
+  }
+  .P_tiny_search {
+    flex: 1;
+    margin-right: 12px !important;
+    position: relative;
+  }
+  .P_search_Filter {
+    margin-top: 28px !important;
+  }
+  .p_contact {
+    margin-top: 40px !important;
+  }
+  .P_artistNav {
+    margin-top: 20px !important;
+    margin-bottom: 34px !important;
+  }
+  .text_manage_noWidth {
+    width: 90%;
+  }
+  .titleText {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+  }
+}
