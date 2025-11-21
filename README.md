@@ -1,1 +1,1 @@
-# artgallery.nextjs
+# Art gallery with nextjs
