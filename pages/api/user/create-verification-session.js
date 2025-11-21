@@ -1,6 +1,6 @@
 // See your keys here: https://dashboard.stripe.com/apikeys
 const Stripe = require('stripe')(
-    'sk_test_51L7whJJmSWKwjCzy5cDr7Ysbjqi6m2K57uyx4YDMV1ybkSiTCHy3yyXexrlXP0ro4PBPLz4nOYNZ4Jio0XaGrGnR00wDOJxqoJ'
+   // 'sk_test_51L7whJJmSWKwjCzy5cDr7Ysbjqi6m2K57uyx4YDMV1ybkSiTCHy3yyXexrlXP0ro4PBPLz4nOYNZ4Jio0XaGrGnR00wDOJxqoJ'
 );
 
 // mrx : 
